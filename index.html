@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>apatheticrepli.ca</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<div class="field gone"></div> 
+	<div id="cntr" class="cntr"> 
+	<img class="garden" src="watering.gif">
+	</div>
+
+</body>
+
+<script>
+	const field = document.querySelector('.field');
+	const body = document.querySelector('body');
+	document.querySelector('.garden').addEventListener('click', function() {
+			if (field.classList.contains('gone')) {
+					field.classList.remove('gone')
+					body.style.background = "black";
+				} else {
+						field.classList.add('gone');
+						body.style.background = "#202020";
+					}
+		});
+</script>
+</html>
