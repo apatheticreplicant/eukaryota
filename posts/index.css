@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-size: calc(15px + 0.390625vw);
+
+}
+
+body {
+	margin: 0;
+	background-color: #d9d9d9;
+	font-family: 'Space Grotesk', sans-serif;
+	overflow: hidden;
+	background-image: url("../assets/posts.png"); 
+	background-size: cover;
+	
+}
+
+header {
+	font-size: 1.3rem;
+	color: #ec9595;
+	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+
+}
+
+.posts {
+	overflow-y: scroll;
+  	overflow-x: hidden;
+  	height: 80%;
+	padding: 0;
+}
+.postinfo a {
+	color: grey;
+}
+
+.postwrap {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	background-color: #222121f7;
+	transition: all 0.2s ease;
+	font-size: 12px;
+	animation: fadein 2s ease;
+}
+
+.postwrap:hover {
+	transition: all 0.2s ease;
+	background-color: black;
+}
+
+
+.archive {
+	text-align: center;
+	margin: 0 auto;
+	width: 55%;
+	height: 100%;
+		
+}
+::selection {
+	color: #c19a6b;
+	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+}
+
+
+
+
+
+.butt {
+	background-color: black;
+	width: 30%;
+  	opacity: 50%;
+  	transition: 0.2s ease;
+}
+.butt:hover {
+	opacity: 100%;	
+	transition: 0.2s ease;
+}
+.util {
+	display: flex;
+  	justify-content: space-evenly;
+}
+
+
+
+a {
+	color: #ec9595;
+  	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+	text-decoration: none;
+	transition: text-shadow 0.2s ease;
+
+}
+
+a:hover {
+	color: white;
+	text-shadow: 3px -2px #ec9595;
+	transition: text-shadow 0.1s ease, color 0.050s ease;
+}
+
+@keyframes fadein {
+	from { opacity: 0%; transform:scale(1.1);
+ }
+	to {opacity: 100%; transform:scale(1)}
+}
+

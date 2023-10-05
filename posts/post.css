@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-size: calc(12px + 0.390625vw);
+	font-family: 'Space Grotesk', sans-serif;
+
+}
+
+body {
+	margin: 0 auto;
+  	line-height: 1.6;
+	color: #ffe8bc;
+	background-color: #000;
+	
+}
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2% 5% 0% 5%;
+	width: 100%;
+	opacity: 50%;
+	transition: 0.2s ease;
+}
+
+nav:hover {
+	opacity: 100%;	
+	transition: 0.2s ease;
+}
+
+.post {
+	animation: fadein 2s ease;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 0.7rem;
+}
+header {
+	border-bottom: 1px solid #595959;
+	padding: 1%;
+	color: white; 
+}
+
+#tags {
+	color: #a8a8a8;
+}
+
+
+
+
+
+.article {
+	margin: 0 auto;
+	padding: 5% 5% 2% 5%;
+	width: 64%;
+	border-bottom: 1px solid #595959;
+}
+.post video, .post img {
+	width: 100%;
+	opacity: 80%;
+	
+}
+
+li {
+	padding: 5px;
+}
+
+
+
+::selection {
+	color: #ec9595;
+	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+}
+
+
+
+
+
+
+
+a {
+	color: #ec9595;
+  	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+	text-decoration: none;
+	transition: text-shadow 0.2s ease;
+
+}
+
+a:hover {
+	color: white;
+	text-shadow: 3px -2px #ec9595;
+	transition: text-shadow 0.1s ease, color 0.050s ease;
+}
+
+@keyframes fadein {
+	from { opacity: 0%; transform: scale(0.9); }
+	to {opacity: 100%; transform: scale(1.0);}
+}
+
+@media(hover:hover){*{scrollbar-color:#ffe8bc #80808047}}
+

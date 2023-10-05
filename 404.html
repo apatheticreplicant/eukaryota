@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<title>404 - euakryota</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon16.png">
+</head>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+
+}
+
+body {
+	margin: 0;
+	background-color: #101012;
+	font-family: Roboto, sans-serif;
+}
+
+header {
+	position: absolute;
+	color: #b7ada2;
+	display: block;
+	margin: 5% 5% 5% 5%;
+
+
+}
+
+header a {
+	text-decoration: none;
+	color: #fff0cf;
+}
+
+.cntr {
+	height: 90%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.field {
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	background: url(assets/whimiscles.gif) repeat;
+	pointer-events: none;
+}
+
+.garden:hover {
+	cursor:pointer;
+}
+
+.gone {
+	display: none;
+}
+</style>
+
+<body>
+	<header>
+	<h1>404! are you lost?</h1> 
+	<p>the spot you're looking for doesn't exist. perhaps you were looking to go <a href="index.html">here?</a></p>
+	</header>	
+	<div class="field gone"></div> 
+	<div id="cntr" class="cntr"> 
+	<img class="garden" src="assets/watering.gif">
+	</div>
+
+</body>
+
+
+
+<script>
+	const field = document.querySelector('.field');
+	const body = document.querySelector('body');
+	document.querySelector('.garden').addEventListener('click', function() {
+			if (field.classList.contains('gone')) {
+					field.classList.remove('gone')
+					body.style.background = "black";
+				} else {
+						field.classList.add('gone');
+						body.style.background = "#101012";
+					}
+		});
+</script>
+</html>
