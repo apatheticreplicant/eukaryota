@@ -67,11 +67,11 @@ nav, .posts {
 	justify-content: flex-end;
 }
 .faq {
-	margin: 6% 5% 5% 5%;
+	margin: 10% 5% 5% 5%;
 	color: white;
 	overflow-y: scroll;
 	width: 64%;
-	height: 70%;
+	height: 40%;
 }
 
 
