@@ -46,7 +46,7 @@ nav, .posts {
 	background-position-y: bottom;
 }
 .center {
-	width: 70%;
+	width: 65%;
 	transition: all 2s ease;
 	animation: split 2s ease;
 	margin: 13% 1% 1% 4%; 
@@ -118,10 +118,10 @@ aside {
 		
 }
 @media (max-width: 50rem) {
-  .bottom  {
+.bottom  {
     flex-direction: column;
   }
-  .bottom .posts {
+.bottom .posts {
   	padding: 5%;
    	overflow-y: scroll;
     	margin: 0;
@@ -129,19 +129,27 @@ aside {
     	height: auto;
   }
    
-  .bottom aside {
+.bottom aside {
 	padding: 5%;
     	margin: 21% 0% 0% 0%;
     	width: 100%;
   }
   
-  .faq {
+.faq {
   	margin: 9% 5% 5% 5%;
   	color: white;
   	width: auto;
   	overflow: scroll;
   	height: 75%;
+} 
+.top {
+	background-size: contain;
 }
+.center {
+	margin: 8% 1% 1% 8%;
+
+}
+nav { justify-content: space-around; }
 }
 
 

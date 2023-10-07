@@ -61,10 +61,6 @@ header {
 	height: 100%;
 		
 }
-::selection {
-	color: #c19a6b;
-	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
-}
 
 
 
@@ -95,10 +91,15 @@ a {
 
 }
 
+
 a:hover {
 	color: white;
 	text-shadow: 3px -2px #ec9595;
 	transition: text-shadow 0.1s ease, color 0.050s ease;
+}
+::selection {
+	color: #ec9595;
+	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
 }
 
 @keyframes fadein {
@@ -107,3 +108,8 @@ a:hover {
 	to {opacity: 100%; transform:scale(1)}
 }
 
+@media (max-width: 50rem) {
+	.butt { opacity: 100%; font-size: 18px; width: 49%; padding: 1%;}
+	.archive { width: auto; }
+
+}

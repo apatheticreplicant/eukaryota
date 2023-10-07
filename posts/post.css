@@ -68,17 +68,10 @@ li {
 }
 
 
-
 ::selection {
 	color: #ec9595;
 	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
 }
-
-
-
-
-
-
 
 a {
 	color: #ec9595;
