@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
 
 * {
 	box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 	scroll-behavior: smooth;
-
 }
 
 body {
 	margin: 0;
 	background-color: #101012;
-	font-family: 'Space Grotesk', sans-serif;
-	overflow: hidden; 
+	font-family: "Space Grotesk", sans-serif;
+	overflow: hidden;
 	line-height: 1.6;
 	color: white;
-  	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
 }
-
 
 ::selection {
 	color: #866bc1;
@@ -33,13 +32,14 @@ nav {
 	position: fixed;
 	width: 100%;
 }
-nav, .posts {
-	font-size: calc(12px + 0.390625vw);
+nav,
+.posts {
+	font-size: 2vh;
 }
 
 .top {
 	height: 100vh;
-	background-image:url(assets/tower.png), url(assets/grass.png);
+	background-image: url(assets/tower.png), url(assets/grass.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position-x: right;
@@ -49,40 +49,36 @@ nav, .posts {
 	width: 65%;
 	transition: all 2s ease;
 	animation: split 2s ease;
-	margin: 13% 1% 1% 4%; 
+	margin: 13% 1% 1% 4%;
 	position: absolute;
 }
 
-
-
-
 .middle {
 	height: 100vh;
-	background-image:url(assets/towerb.png), url("assets/light.png");
+	background-image: url(assets/towerb.png), url("assets/light.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-position-y: bottom;
-	display: flex; 
+	display: flex;
 	justify-content: flex-end;
 }
 .faq {
-	margin: 8% 5% 5% 5%; 
+	margin: 8% 5% 5% 5%;
 	color: white;
 	width: 64%;
-	height: 40%;
+	height: 50%;
+	overflow: scroll;
 }
-
-
 
 .bottom {
 	height: 100vh;
-	background-image:url(assets/roots.png);
+	background-image: url(assets/roots.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position-y: top;
 	background-color: whitesmoke;
-	display: flex; 
+	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	text-shadow: none;
@@ -90,10 +86,10 @@ nav, .posts {
 
 .posts {
 	margin: 0 5% 0 0;
-  	width: 70%;
+	width: 70%;
 	padding: 5%;
 	height: 64%;
-  	overflow-y: scroll;
+	overflow-y: scroll;
 }
 .posts article {
 	border-bottom: 2px solid grey;
@@ -105,74 +101,95 @@ nav, .posts {
 }
 
 aside header {
-	color: black;
 	border-bottom: 2px double grey;
-	font-size: 12px;
+	font-size: 1.3vh;
 }
-
+#rss {
+	padding: 4px;
+	transition: none;
+	animation: rss 1s linear infinite;
+}
+#rss:hover {
+	color: #c19a6b;
+	transform: scaleY(1.2);
+	animation: none;
+}
 aside {
+	color: black;
 	padding: 5%;
-  	margin-top: -28%;
+	margin-top: -28%;
 	font-size: 1vh;
 	width: 25%;
-		
+	transition: all 1s ease;
 }
 @media (max-width: 50rem) {
-.bottom  {
-    flex-direction: column;
-  }
-.bottom .posts {
-  	padding: 5%;
-   	overflow-y: scroll;
-    	margin: 0;
-    	width: auto;
-    	height: auto;
-  }
-   
-.bottom aside {
-	padding: 5%;
-    	margin: 21% 0% 0% 0%;
-    	width: 100%;
-  }
-  
-.faq {
-  	margin: 9% 5% 5% 5%;
-  	color: white;
-  	width: auto;
-  	overflow: scroll;
-  	height: 75%;
-} 
-.top {
-	background-size: contain;
-}
-.center {
-	margin: 8% 1% 1% 8%;
+	.bottom {
+		flex-direction: column;
+	}
+	.bottom .posts {
+		padding: 5%;
+		overflow-y: scroll;
+		margin: 0;
+		width: auto;
+		height: auto;
+	}
 
-}
-nav { justify-content: space-around; }
-}
+	.bottom aside {
+		padding: 5%;
+		margin: 21% 0% 0% 0%;
+		width: 100%;
+	}
 
+	.faq {
+		margin: 9% 5% 5% 5%;
+		color: white;
+		width: auto;
+		overflow: scroll;
+		height: 75%;
+	}
+	.top {
+		background-size: contain;
+	}
+	.center {
+		margin: 8% 1% 1% 8%;
+	}
+	nav {
+		justify-content: space-around;
+	}
+}
 
 a {
 	text-decoration: none;
 	color: #866bc1;
 	transition: text-shadow 0.2s ease;
-
 }
 a:hover {
 	color: white;
 	text-shadow: 3px -2px rgba(253, 198, 150, 0.77);
-	transition: text-shadow 0.1s ease, color 0.050s ease;
+	transition: text-shadow 0.1s ease, color 0.05s ease;
 }
 nav a {
-	color: #c19a6b
+	color: #c19a6b;
 }
 
 @keyframes split {
-	from { left: -70%; }
-	to { left: 0; } 
+	from {
+		left: -70%;
+	}
+	to {
+		left: 0;
+	}
 }
 @keyframes fadein {
-	from { opacity: 0% }
-	to { opacity: 100% }
+	from {
+		opacity: 0%;
+	}
+	to {
+		opacity: 100%;
+	}
+}
+@keyframes rss {
+	50% {
+		color: #c19a6b;
+	}
 }
