@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head><title>now! Now! Welcome to the Now! - eukaryota</title><meta name="referrer" content="never" />
+<meta name="referrer" content="no-referrer" />
+<meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="now! Now! Welcome to the Now! - eukaryota"/><meta property="og:description" content="welcome to the now page. this area of the zoo is dedicated to everything that’s happening right now. now. all around us. now. right now!"/><meta property="og:image" content="https://eukaryota.cx/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="welcome to the now page. this area of the zoo is dedicated to everything that’s happening right now. now. all around us. now. right now!"/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="./index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Space Grotesk:wght@400;700&amp;family=Space Grotesk:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="./prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`./static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="index"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href=".">NOW - EUKARYOTA LEY LINE</a></h1><div class="spacer mobile-only"></div><div class="explorer "><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true" data-tree="[]"><h1>???</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li><div><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul><li><li><a href="./links" data-for="links">links</a></li></li></ul></div></div></li><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title ">now! Now! Welcome to the Now! - eukaryota</h1></div></div><article class="popover-hint"><p>welcome to the <em>now</em> page. this area of the zoo is dedicated to everything that’s happening right now. now. all around us. now. <a href="https://nownownow.com/about" class="external alias">right now</a>!</p>
+<p><em>right now,</em> i’m reading through <a href="https://hardcover.app/books/a-world-undone" class="external alias">A World Undone: The Story of the Great War, 1914 to 1918</a> (it’s heavy!)
+<br/>
+and watching through Star Trek: Enterprise (it’s horny!)</p>
+<br/>
+what else is happening right now? the winter is cold this year, but not cold enough to bite. 
+<p>most recently around here, someone wrote <a href="https://eukaryota.cx/posts/2023/winter/vinum-memoriae-mors" class="external alias">this post</a> about feeling, and dreams, and writhing, and memory, and the lack-thereof. it is hard to write when you do not know who is going to read. but like everything, perhaps the best way is to do it for yourself, without a care!</p>
+<p>the current top-side stray thought is: <em>“I would like to work on some music again.”</em></p>
+<p><img src="./FxIcriuWIAEwO-S.jpeg" width="auto" height="auto"/></p>
+<p>the little explorer on the left there is soon-to-be filled with a good pickings - for now, <a href="./links" class="internal alias" data-slug="/links">here</a> is a list of web links that are worth your time.</p></article></div><div class="right sidebar"></div></div><footer class><hr/><p><a href="https://quartz.jzhao.xyz/">Quartz v4.1.2</a></p><ul></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+          const socket = new WebSocket('ws://localhost:3001')
+          socket.addEventListener('message', () => document.location.reload())
+        </script><script src="./postscript.js" type="module"></script></html>

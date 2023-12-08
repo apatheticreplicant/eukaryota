@@ -15,27 +15,39 @@ body {
 	margin: 0 auto;
   	line-height: 1.6;
 	color: #ffe8bc;
-	background-color: #000;
+	background: #0d0d0d;
+	background-size: contain;
 	
 }
-nav {
+.palm {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 2% 5% 0% 5%;
 	opacity: 50%;
 	transition: 0.2s ease;
 }
+#buttons {
+	color: transparent;
 
-nav:hover {
+}
+#buttons:hover {
+	transition: 0.2s ease;
+	text-shadow: none;
+}
+.palm:hover, nav:hover {
 	opacity: 100%;	
 	transition: 0.2s ease;
 }
-
-.post {
+.palm:hover > #buttons {
+	animation: txtd 2s infinite;
+	color: white;
+	transition: 0.2s ease;
+}
+.post:not(.sticky) {
 	animation: fadein 2s ease;
 	height: 100%;
 	margin: 0 auto;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 header {
 	border-bottom: 1px solid #595959;
@@ -52,18 +64,19 @@ header h1 {
 }
 
 
-
+/* post content */
 
 
 .article {
-	margin: 0 auto;
+	margin: 0% auto 1% auto;
 	padding: 1% 5% 2% 5%;
 	width: 64%;
 	border-bottom: 1px solid #595959;
 }
-.post video, .post img {
+.post video, .post img:not(.footershroom) {
 	width: 100%;
 	opacity: 80%;
+	border-radius: 5px;
 	
 }
 
@@ -71,15 +84,60 @@ li {
 	padding: 5px;
 }
 
+.code {
+	color: white;
+	background-color: #1b1821;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 4%;
+}
+.code blockquote {
+	border-left: 3px solid #ffe8bc;
+	background: rgba(115, 115, 115, 0.18);
+	padding-left: 12px;
+	margin: 12px;
+	
+}
+.sticky {
+	border-left: 5px solid white;
+  	background: #141414;
+  	width: 105%;
+  	margin-left: -3%;
+  	padding: 5px 5px 5px 20px;
+	color: white;
+	border-radius: 1%;
+}
+
+
+
+footer {
+	color: white;
+	height: 12%;
+  	margin: 0 auto;
+  	width: 64%;
+	font-size: 12px;
+}
+footer img {
+	float: right;
+}
+footer ul {
+	padding: 0;
+	list-style-type:none;
+
+}
+footer li {
+	display: inline;
+}
+
+
 
 ::selection {
-	color: #ec9595;
+	color: #aba0c6;
 	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
 }
 
 a {
-	color: #ec9595;
-  	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+	color: #866bc1;
 	text-decoration: none;
 	transition: text-shadow 0.2s ease;
 
@@ -87,13 +145,21 @@ a {
 
 a:hover {
 	color: white;
-	text-shadow: 3px -2px #ec9595;
+	text-shadow: 3px -2px white;
 	transition: text-shadow 0.1s ease, color 0.050s ease;
 }
+
+
 
 @keyframes fadein {
 	from { opacity: 0%; transform: scale(0.9); }
 	to {opacity: 100%; transform: scale(1.0);}
+}
+
+@keyframes txtd {
+	50% {
+	 text-shadow: 3px -1px white; 
+ }
 }
 
 @media(hover:hover){*{scrollbar-color:#ffe8bc #80808047}}

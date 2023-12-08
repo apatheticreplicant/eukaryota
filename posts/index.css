@@ -12,17 +12,17 @@ html, body {
 
 body {
 	margin: 0;
-	background-color: #d9d9d9;
+	background-color: black;
 	font-family: 'Space Grotesk', sans-serif;
 	overflow: hidden;
-	background-image: url("../assets/posts.png"); 
-	background-size: cover;
+	color: white;
+	background: black url("../assets/noise2.png"); 
+	background-size: contain;
 	
 }
 
 header {
 	font-size: 1.3rem;
-	color: #ec9595;
 	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
 
 }
@@ -42,15 +42,19 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	color: white;
-	background-color: #222121f7;
+	opacity: 80%;
+	background-color: rgba(18, 19, 21);
 	transition: all 0.2s ease;
 	font-size: 12px;
 	animation: fadein 2s ease;
+	margin-top: 5px;
 }
 
 .postwrap:hover {
 	transition: all 0.2s ease;
 	background-color: black;
+	opacity: 100%;
+	transform: scale(1.01);
 }
 
 
@@ -75,6 +79,7 @@ header {
 .butt:hover {
 	opacity: 100%;	
 	transition: 0.2s ease;
+	transform: scale(1.01);
 }
 .util {
 	display: flex;
@@ -84,7 +89,7 @@ header {
 
 
 a {
-	color: #ec9595;
+	color: white;
   	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
 	text-decoration: none;
 	transition: text-shadow 0.2s ease;
@@ -94,7 +99,7 @@ a {
 
 a:hover {
 	color: white;
-	text-shadow: 3px -2px #ec9595;
+	text-shadow: 3px -2px rgba(255, 255, 255, 0.77);
 	transition: text-shadow 0.1s ease, color 0.050s ease;
 }
 ::selection {
@@ -105,7 +110,7 @@ a:hover {
 @keyframes fadein {
 	from { opacity: 0%; transform:scale(1.1);
  }
-	to {opacity: 100%; transform:scale(1)}
+	to {opacity: 80%; transform:scale(1)}
 }
 
 @media (max-width: 50rem) {
