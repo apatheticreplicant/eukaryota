@@ -47,12 +47,12 @@ body {
 }
 .webport {
 	text-align: center;
-	border-bottom: 1px solid gray;
-	height: 75%;
+	border-bottom: 1px solid #464646;
+  	height: 70%;
 	
 }
 .webport h1 {
-
+	margin: -12px 0px -12px 0px;
 }
 
 ul {
@@ -121,7 +121,6 @@ ul {
 	}
 	.webport {
 		margin: 65% 0% 0% 0%;
-    		border-bottom: 1px solid grey;
     		padding: 32px;
     		line-height: 1.6;
 		height: 100%;
