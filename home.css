@@ -47,10 +47,11 @@ body {
 }
 .webport {
 	text-align: center;
+	border-bottom: 1px solid gray;
+	height: 75%;
 	
 }
 .webport h1 {
-	margin: -22px;
 
 }
 
@@ -123,6 +124,7 @@ ul {
     		border-bottom: 1px solid grey;
     		padding: 32px;
     		line-height: 1.6;
+		height: 100%;
 	}
 	.webport img {
 		width: 100%;
