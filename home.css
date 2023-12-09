@@ -2,7 +2,7 @@
 
 * {
 	box-sizing: border-box;
-	transition: margin 0.5s ease;
+	transition: margin, width 0.5s ease;
 }
 
 html, body {
@@ -120,20 +120,24 @@ ul {
 		padding: 1%;
 	}
 	.webport {
-		margin: 65% 0% 0% 0%;
+		margin: 10% 0% 5% 0%;
     		padding: 32px;
     		line-height: 1.6;
 		height: 100%;
+		font-size: 3vw;
 	}
 	.webport img {
-		width: 100%;
 		padding-bottom: 5%;
+		width: 40vw;
+
+	}
+	.webport h1 {
+		margin: -5% 0 auto;
 	}
 	.posts {
 		width: 100%;
 		margin: 0;
-		text-align: center;
-		padding-bottom: 5%;
+		padding: 0% 5% 0% 5%;
 	}
 	.swiper {
 		height: 100%;
@@ -142,6 +146,21 @@ ul {
 	display: none;
 	}
 }
+@media (max-width: 700px) {
+	.webport img {
+		width: 80%;
+
+	}
+	.webport a {
+		font-size: 4vw;
+	}
+	.webport { 
+		margin: 60% 0% 5% 0%;
+		padding: 0;
+	}
+
+}
+
 
 a, .swipe-L, .swipe-R {
 	text-decoration: none;

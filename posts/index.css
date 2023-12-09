@@ -16,7 +16,8 @@ body {
 	font-family: 'Space Grotesk', sans-serif;
 	overflow: hidden;
 	color: white;
-	background: black url("../assets/noise2.png"); 
+	background: black url("../assets/noise2.png");
+	background-repeat: repeat;
 	background-size: contain;
 	
 }
