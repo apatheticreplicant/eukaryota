@@ -47,12 +47,15 @@ body {
 }
 .webport {
 	text-align: center;
-	border-bottom: 1px solid #464646;
   	height: 70%;
 	
 }
 .webport h1 {
 	margin: -12px 0px -12px 0px;
+}
+
+.sitenav { 
+	border-bottom: 1px solid #464646;
 }
 
 ul {
