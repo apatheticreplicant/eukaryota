@@ -47,20 +47,24 @@ body {
 }
 .webport {
 	text-align: center;
-  	height: 70%;
+
 	
 }
 .webport h1 {
 	margin: -12px 0px -12px 0px;
 }
 
-.sitenav { 
-	border-bottom: 1px solid #464646;
-}
+.navbottom { 
+	border-top: 1px solid #464646;
+	padding: 10px;
 
+}
+.navtop {
+	justify-content: space-around;
+}
 ul {
 	display: flex;
-  	justify-content: space-around;
+  	justify-content: space-between;
   	list-style-type: none;
   	padding: 0;
 }
@@ -84,7 +88,7 @@ ul {
 
 .swipe-L, .swipe-R {
 	color: #f77676;
-	top: 55%;
+	top: 40%;
 
 }
 .swipe-L {
@@ -96,7 +100,7 @@ ul {
 	margin: 3px 0px 0px 0px;;
 }
 .meta {
-	color: grey;	
+	color: #b9b9b9;	
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover {
@@ -116,17 +120,17 @@ ul {
 	animation: none;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
 
 	.wrapper {
 		flex-direction: column;	
 		padding: 1%;
+		gap: 1%;
 	}
 	.webport {
-		margin: 10% 0% 5% 0%;
+		margin: 10% 0% 0% 0%;
     		padding: 32px;
     		line-height: 1.6;
-		height: 100%;
 		font-size: 3vw;
 	}
 	.webport img {
@@ -175,7 +179,10 @@ a:hover, .swipe-L:hover, .swipe-R:hover {
 	text-shadow: 3px -2px rgba(255, 255, 255, 0.77);
 	transition: text-shadow 0.1s ease, color 0.05s ease;
 }
-
+#noaccess:hover {
+	color: red;
+	cursor: not-allowed;
+}
 
 @keyframes rss {
 	50% {

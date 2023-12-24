@@ -21,13 +21,17 @@ body {
 }
 .palm {
 	display: flex;
-	justify-content: space-evenly;
-	padding: 2% 5% 0% 5%;
-	opacity: 50%;
-	transition: 0.2s ease;
+  	justify-content: space-around;
+  	padding: 2% 0% 0% 0%;
+  	opacity: 50%;
+  	transition: 0.2s ease;
+  	width: 64%;
+  	margin: 0 auto;
 }
+
 #buttons {
 	color: transparent;
+	width: 75px;
 
 }
 #buttons:hover {
@@ -165,8 +169,8 @@ a:hover {
 @media(hover:hover){*{scrollbar-color:#ffe8bc #80808047}}
 
 @media (max-width: 50rem) {
-	nav { opacity: 100%; justify-content: space-around; }
 	.article { width: auto; padding-top: 0; }
-	header h1 { font-size: 14px }	
+	header h1 { font-size: 14px }
+	footer { width: 90%; }	
 }
 

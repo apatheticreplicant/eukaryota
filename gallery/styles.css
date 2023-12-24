@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Hyper;
+  src: url(../assets/fonts/hyperscript/HyperScrypt-Stencil_web.woff);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: "Hyper", sans-serif;
+	line-height: 1.6;
+	font-size: 1.3rem;
+	color: white;
+	background-color: black;
+	overflow-x: hidden;
+}
+
+.photos {
+	position: relative;
+	z-index: 100;
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	animation: fadein 0.3s ease;
+}
+#gateway, a {
+  	width: 80%;
+	margin: 5%;
+	border: 8px solid black;
+	background-color: rgba(0, 0, 0, 0.76);
+	
+}
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.scrolld {
+	position: absolute;
+	z-index: -100;
+	color: rgba(57, 44, 48, 0.59);
+  	top: -32px;
+  	left: 0;
+  	width: 108%;
+  	word-break: break-all;
+  	height: 6100px;
+  	overflow: hidden;
+
+}
+
+::selection {
+	color: #866bc1;
+	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+}
+
+@media (max-width: 50rem) {
+	#gateway { width: 120%; }
+	.scrolld { height: 2200px; width: 100%; overflow: hidden;}
+}
+
+@keyframes fadein {
+	from { opacity: 0% }
+	to { opacity: 100% }
+}
