@@ -8,22 +8,37 @@
 	<meta name="theme-color" content="#c19a6b">
 	<title>shrines - eukaryota</title>	
 	<meta property="og:url" content="https://eukaryota.cx/">
-	<meta property="og:title" content="LUNGS">
-	<meta property="og:description" content="LUNGS">
+	<meta property="og:title" content="Shrines">
+	<meta property="og:description" content="HEART, LIVER, BRAIN, BLOOD, LUNGS">
 	<meta property="og:site_name" content="eukaryota">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="../../assets/lungs.png">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="shrines.css">
 	<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon16.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon96.png">
 </head>
 
 <body>
 
-<script>window.location.replace("./brain/index.html")</script>
+	<h1>shrines</h1> <img src="../assets/butterfly.gif">
+	<hr> 
+<ul>
+	<li><strong>JAN '24</strong> - Our backend is built on a half-alive body we found in a dumpster. <a id="lung" href="./brain/index.html">Wanna open it up?</a></li>
+
+</ul>
 
 </body>
 
+<script>
+const links = new Array();
+links[0] = "https://eukaryota.cx/shrines/blood"
+links[1] = "https://eukaryota.cx/shrines/heart"
+links[2] = "https://eukaryota.cx/shrines/liver"
+links[3] = "https://eukaryota.cx/shrines/lungs"
+links[4] = "https://eukaryota.cx/shrines/brain"
+	function examine() {
+			document.getElementById("lung").href = links[Math.floor(Math.random() * links.length)];
+		}
+examine();
+</script>
 </html>
 
