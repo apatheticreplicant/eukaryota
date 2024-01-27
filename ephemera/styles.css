@@ -14,7 +14,7 @@ body {
 	font-weight: bold;
 }
 #cwr {
-	width: 35%;	
+	width: 28%;	
 	padding: 0;
   	margin: 0 auto;
   	display: block;
@@ -26,6 +26,7 @@ body {
   	background-size: contain;
 	height: 40vh;
   	margin: 10% auto;
+	opacity: 70%;
 }
 .items {
 	display: flex;
@@ -33,7 +34,7 @@ body {
 .box {
 	color: white;
    	width: 75%;
-  	margin: 3% auto;
+  	margin: 5% auto;
 
 }
 .keyblock {
