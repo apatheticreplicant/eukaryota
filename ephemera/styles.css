@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(../assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+	transition: all 0.1s cubic-bezier(.65,.05,.36,1);
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	font-family: 'space grotesk', sans-serif;
+	font-weight: bold;
+}
+#cwr {
+	width: 35%;	
+	padding: 0;
+  	margin: 0 auto;
+  	display: block;
+}
+.coup {
+
+	background: url(../assets/hand.png), url(../assets/tunnel.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 64vh;
+  	margin: 0 auto;
+}
+.items {
+	display: flex;
+}
+.box {
+	color: white;
+   	width: 75%;
+  	margin: 3% auto;
+
+}
+.keyblock {
+	max-height: 900px;
+	overflow: scroll;
+}
+.toggled {
+	max-height: 0;
+	overflow: hidden;
+}
+h3 {
+	border-bottom: 2px solid #fdfefd
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #ab551c; 
+}
+.scr, .scr:hover {
+	cursor: default;
+	text-decoration: none;
+	color: white;
+}
+
