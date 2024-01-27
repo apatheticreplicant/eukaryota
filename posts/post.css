@@ -25,7 +25,6 @@ body {
   	padding: 2% 0% 0% 0%;
   	opacity: 50%;
   	transition: 0.2s ease;
-  	width: 64%;
   	margin: 0 auto;
 }
 
@@ -47,7 +46,7 @@ body {
 	transition: 0.2s ease;
 }
 .post:not(.sticky) {
-	animation: fadein 2s ease;
+	animation: fadein 1s ease;
 	height: 100%;
 	margin: 0 auto;
 	font-size: 0.8rem;
@@ -183,8 +182,8 @@ a:hover {
 
 
 @keyframes fadein {
-	from { opacity: 0%; transform: scale(0.9); }
-	to {opacity: 100%; transform: scale(1.0);}
+	from { opacity: 0%; margin: 20px auto; }
+	to {opacity: 100%; margin: 0 auto;}
 }
 
 @keyframes txtd {

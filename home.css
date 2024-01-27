@@ -154,7 +154,7 @@ ul {
 		font-size: 3vw;
 	}
 	ul {
-		justify-content: center;
+		justify-content: space-around;
 	  	gap: 1vw;
 	}
 	.swiper {
