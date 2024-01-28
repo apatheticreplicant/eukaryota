@@ -1,11 +1,15 @@
 // wordcount
 
 let article = document.querySelector("article").innerText
-let wordcount = article.split(" ").length;
+let wordcount = article.trim().split(/\s+/).length;
 document.getElementById("wordcount").innerText = wordcount + ' words'
 
 console.log(wordcount)
 
+// time to read 
+let wpm = 230
+let time = Math.ceil(wordcount / wpm)
+document.getElementById("time").innerText = time + " minutes"
 // accessdate 
 let currentdate = new Date();
 
