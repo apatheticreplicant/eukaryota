@@ -1,30 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(../assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
 
 * {
 	box-sizing: border-box;
 }
 
-html, body {
-	height: 100%;
-	font-size: calc(12px + 0.390625vw);
-	font-family: 'Space Grotesk', sans-serif;
-
-}
+/* schemes */
 
 body {
+	--background: #0d0d0d;
+	--text: #ffe8bc;
+	--head: #fff;
+	--meta: #a8a8a8;
+	--link: #866bc1; 
+	--highlight: #595959;
+	--select: #aba0c6;	
+
+	font-family: 'Space Grotesk', sans-serif;
+	background: var(--background);
+	color: var(--text);
+	transition: all 0.2s ease;
+	line-height: 1.4;
 	margin: 0 auto;
-  	line-height: 1.6;
-	color: #ffe8bc;
-	background: #0d0d0d;
-	background-size: contain;
-	
+
+
 }
+
+/* head */
 .palm {
 	display: flex;
   	justify-content: space-around;
-  	padding: 2% 0% 0% 0%;
+  	padding: 20px 0;
   	opacity: 50%;
-  	transition: 0.2s ease;
   	margin: 0 auto;
 }
 
@@ -42,39 +51,42 @@ body {
 }
 .palm:hover > #buttons {
 	animation: txtd 2s infinite;
-	color: white;
+	color: var(--head);
 	transition: 0.2s ease;
 }
 .post:not(.sticky) {
-	animation: fadein 1s ease;
 	height: 100%;
 	margin: 0 auto;
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
+
+/* post title */
+
 header {
-	border-bottom: 1px solid #595959;
+	border-bottom: 1px solid var(--meta);
 	padding: 1% 0% 1% 0%;
-	color: white; 
+	color: var(--head); 
+	width: 60%;
+	margin: 0 auto;
 }
 header h1 {
-	font-size: 18px;
+	font-size: 19px;
 	margin-bottom: 10px;
 }
 
 #tags {
-	color: #a8a8a8;
+	color: var(--meta);
 	font-style: italic;
 }
 
 
 /* post content */
-
-
 .article {
 	margin: 0% auto 1% auto;
 	padding: 1% 5% 2% 5%;
 	width: 64%;
-	border-bottom: 1px solid #595959;
+	border-bottom: 1px solid var(--meta);
+	animation: fadein 1s ease;
 }
 .post video, .post img:not(.footershroom) {
 	width: 100%;
@@ -88,15 +100,14 @@ figure {
 	padding: 0;
 	margin: 0;
 }
-
 li {
-	padding: 5px;
+	padding-right: 1%;
 }
 
 /* code, blockquotes, stickies */
 
 .code {
-	color: white;
+	color: var(--head);
 	background-color: #1b1821;
 	border-radius: 15px;
 	padding: 10px;
@@ -110,38 +121,18 @@ li {
 	
 }
 .sticky {
-	border-left: 5px solid white;
+	border-left: 5px solid var(--head);
   	background: #141414;
   	width: 105%;
   	margin-left: -3%;
-  	padding: 5px 5px 5px 20px;
-	color: white;
+  	padding: 5px 20px; 
+	color: var(--head);
 	border-radius: 1%;
 }
 
-/* faux messages */
-.message {
-	padding: 10px;
-	line-height: normal;
-}
-.message h1 {
-	display: inline;
-	font-size: 0.9rem;
-}
-.message p {
-	margin: 0;
-  	padding-top: 2px;
-}
-.messages {
-	background-color: #13171a;
-  	color: #f7f3e6;
-  	border-radius: 6px;
-}
-.message .meta {
-	color: grey;
-}
+/* page footer */
 footer {
-	color: white;
+	color: var(--head);
 	height: 12%;
   	margin: 0 auto;
   	width: 64%;
@@ -158,29 +149,30 @@ footer ul {
 footer li {
 	display: inline;
 }
-
-
+#D, #M, #Y, #T {
+	font-weight: bold;
+}
 
 ::selection {
-	color: #aba0c6;
+	color: var(--select);
 	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
 }
 
 a {
-	color: #866bc1;
+	color: var(--link);
 	text-decoration: none;
 	transition: text-shadow 0.2s ease;
 
 }
 
 a:hover {
-	color: white;
+	color: var(--head);
 	text-shadow: 3px -2px white;
 	transition: text-shadow 0.1s ease, color 0.050s ease;
 }
 
 
-
+/* anim & responivity */ 
 @keyframes fadein {
 	from { opacity: 0%; margin: 20px auto; }
 	to {opacity: 100%; margin: 0 auto;}
@@ -197,6 +189,6 @@ a:hover {
 @media (max-width: 50rem) {
 	.article { width: auto; padding-top: 0; }
 	header h1 { font-size: 14px }
-	footer { width: 90%; }	
+	footer, header { width: 90%; }	
 }
 
