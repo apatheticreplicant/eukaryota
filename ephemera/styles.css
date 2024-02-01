@@ -20,11 +20,11 @@ body {
   	display: block;
 }
 .coup {
-	background: url(../assets/hand.png),url(../assets/tunnel.gif);
+	background: url(../assets/tunnel.gif);
   	background-repeat: no-repeat;
   	background-position: center;
   	background-size: contain;
-	height: 40vh;
+	height: 20vh;
   	margin: 10% auto;
 	opacity: 70%;
 }

@@ -18,10 +18,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon16.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon96.png">
-	<script type="text/javascript">
-    	var img = new Image(); 
-    	img.src = "assets/noise1.png"; // preload noise
-	</script>
+
 
 </head>
 
@@ -60,7 +57,7 @@
 		
 
 <div class="posts">
-			<header>LATEST POSTS</header>
+			<header>the latest:</header>
 
 
 <div class="swiper"> 
@@ -115,11 +112,11 @@ new Swiper('.swiper', {
 fetch('https://api.datamuse.com/words?rel_jjb=angel').then(function(response) {
   return response.json();
 }).then(function(data) {
-  console.log(data[0]);
   let user = data[Math.floor(Math.random()*data.length)];
   document.getElementById("user").innerHTML=user.word
+  console.log("you are " + user.word);
 }).catch(function(err) {
-  console.log('Oh no! :-S', err);
+  console.log('issue:', err);
 });
 
 </script>
