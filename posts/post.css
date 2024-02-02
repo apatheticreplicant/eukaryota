@@ -35,11 +35,13 @@ body {
   	padding: 20px 0;
   	opacity: 50%;
   	margin: 0 auto;
+	width: 60%;
 }
 
 #buttons {
 	color: transparent;
-
+	text-align: center;
+	width: 32px;
 }
 #buttons:hover {
 	transition: 0.2s ease;
@@ -190,5 +192,6 @@ a:hover {
 	.article { width: auto; padding-top: 0; }
 	header h1 { font-size: 14px }
 	footer, header { width: 90%; }	
+	#buttons { color: white; }
 }
 
