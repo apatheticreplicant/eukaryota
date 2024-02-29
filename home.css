@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(./assets/fonts/space-grotesk/SpaceGrotesk-Light.ttf);
+}
 
 * {
 	box-sizing: border-box;
@@ -13,6 +16,7 @@ html, body {
 body {
 	margin: 0;
 	font-family: "Space Grotesk", sans-serif;
+	font-weight: 100;
 	line-height: 1.6;
 	font-size: 1.3rem;
 	color: #f7f3e6;
