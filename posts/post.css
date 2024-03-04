@@ -1,8 +1,7 @@
 @font-face {
-  font-family: 'Space Grotesk';
-  src: url(assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+  font-family: 'space grotesk';
+  src: url(../assets/fonts/space-grotesk/SpaceGrotesk-Light.ttf);
 }
-
 * {
 	box-sizing: border-box;
 }
@@ -18,8 +17,8 @@ body {
 	--highlight: #595959;
 	--select: #aba0c6;	
 
-	font-family: 'Space Grotesk', sans-serif;
-	background: var(--background);
+	font-family: 'space grotesk', sans-serif;
+	background: url(../assets/noise3.png) var(--background);
 	color: var(--text);
 	transition: all 0.2s ease;
 	line-height: 1.4;

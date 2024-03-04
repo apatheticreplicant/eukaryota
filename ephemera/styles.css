@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Space Grotesk';
-  src: url(../assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+  src: url(../assets/fonts/space-grotesk/SpaceGrotesk-Light.ttf);
 }
 
 * {
@@ -9,32 +9,19 @@
 }
 
 body {
-	background: black;
-	font-family: 'space grotesk', sans-serif;
+	background: url(../assets/noise2.png) black;
+	font-family: 'Space Grotesk', sans-serif;
 	font-weight: bold;
 }
-#cwr {
-	width: 28%;	
-	padding: 0;
-  	margin: 0 auto;
-  	display: block;
-}
-.coup {
-	background: url(../assets/tunnel.gif);
-  	background-repeat: no-repeat;
-  	background-position: center;
-  	background-size: contain;
-	height: 20vh;
-  	margin: 10% auto;
-	opacity: 70%;
-}
-.items {
-	display: flex;
+
+.webport {
+	text-align: center;
 }
 .box {
 	color: white;
    	width: 75%;
-  	margin: 5% auto;
+  	margin: 0 auto;
+	margin-top: 5%;
 
 }
 .keyblock {
@@ -45,23 +32,23 @@ body {
 	max-height: 0;
 	overflow: hidden;
 }
-h3 {
-	border-bottom: 2px solid #fdfefd
-}
+
 ul {
 	list-style-type: none;
 	padding: 0;
+	text-align: center;
 }
 a {
 	color: white;
 	text-decoration: none;
 }
 a:hover {
-	color: #ab551c; 
+	color: #ff0823; 
 }
 .scr, .scr:hover {
 	cursor: default;
 	text-decoration: none;
 	color: white;
 }
+
 
