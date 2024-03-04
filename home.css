@@ -114,7 +114,6 @@ ul {
 	animation: rss 1s linear infinite;
 }
 .rss:hover {
-	transform: scale(1.4);
 	animation: none;
 }
 
@@ -131,7 +130,6 @@ ul {
 	.webport {
 		margin: 0;
     		padding: 32px;
-		font-size: 3vw;
 	}
 	.webport img {
 		padding-bottom: 5%;

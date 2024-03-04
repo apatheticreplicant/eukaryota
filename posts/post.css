@@ -23,7 +23,7 @@ body {
 	transition: all 0.2s ease;
 	line-height: 1.4;
 	margin: 0 auto;
-
+	animation: fadein 1s ease;
 
 }
 
@@ -87,7 +87,7 @@ header h1 {
 	padding: 1% 5% 2% 5%;
 	width: 64%;
 	border-bottom: 1px solid var(--meta);
-	animation: fadein 1s ease;
+	animation: floatin 1s ease;
 }
 .post video, .post img:not(.footershroom) {
 	width: 100%;
@@ -174,9 +174,13 @@ a:hover {
 
 
 /* anim & responivity */ 
-@keyframes fadein {
+@keyframes floatin {
 	from { opacity: 0%; margin: 30px auto; }
 	to {opacity: 100%; margin: 0 auto;}
+}
+@keyframes fadein {
+	from { opacity: 0%;}
+	to {opacity: 100%;}
 }
 
 @keyframes txtd {
