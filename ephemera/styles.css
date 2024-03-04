@@ -17,6 +17,9 @@ body {
 .webport {
 	text-align: center;
 }
+.webport img {
+	max-width: 100%;
+	}
 .box {
 	color: white;
    	width: 75%;
