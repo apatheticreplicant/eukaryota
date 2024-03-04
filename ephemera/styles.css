@@ -4,7 +4,7 @@
 }
 
 * {
-	transition: all 0.1s cubic-bezier(.65,.05,.36,1);
+	transition: all 0.3s ease;
 	box-sizing: border-box;
 }
 
@@ -16,7 +16,10 @@ body {
 
 .webport {
 	text-align: center;
+	max-height: 5000px
 }
+
+
 .webport img {
 	max-width: 100%;
 	}
@@ -27,31 +30,40 @@ body {
 	margin-top: 5%;
 
 }
-.keyblock {
+.keyblock, .friendblock, .privblock {
 	max-height: 900px;
 	overflow: scroll;
 }
 .toggled {
-	max-height: 0;
+	max-height: 0px;
 	overflow: hidden;
+	opacity: 0;
 }
 
 ul {
 	list-style-type: none;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 }
 a {
 	color: white;
 	text-decoration: none;
 }
-a:hover {
+#lm {
+	color: #ff3c3c;
+	text-decoration: line-through;
+}
+a:hover, #lm:hover {
 	color: #ff0823; 
+	text-decoration: none;
+
 }
 .scr, .scr:hover {
 	cursor: default;
 	text-decoration: none;
 	color: white;
 }
-
-
+::selection {
+  color: #ff3c3c;
+  text-shadow: 1px 1px rgb(57, 57, 57);
+  }
