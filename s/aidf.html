@@ -24,6 +24,6 @@ body{ background: #000; color: #fff}
 let postList = './intranet_assets/posts.json'
 let response = await fetch(postList)
 let links = await response.json();
-location.href = 's' + links[Math.floor(Math.random() * links.length)].locale + '.html'
+location.href = 's' + links[Math.floor(Math.random() * links.length)].locale
 </script>
 </html>
