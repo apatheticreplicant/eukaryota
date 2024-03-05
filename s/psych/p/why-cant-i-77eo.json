@@ -1,0 +1,67 @@
+[
+   {
+      "user":"coldfreezingnight",
+      "time":" 6 hours ago",
+      "content":"consider ketamine",
+      "child":0,
+      "number":"1",
+      "id":"AIM",
+      "parentid":null
+   },
+   {
+      "user":"bloodsky",
+      "time":" 5 hours ago",
+      "content":"do not do this, lol. there are no permanent solutions for us, but you can make it a little better. mental palaces like <a href='https://tilde.town/~vilmibm/blog/#mud-mind'>this one</a> seem to do a lot for some people. its a lot of horse shit that things are like this OP but they can be a little better",
+      "child":1,
+      "number":"2",
+      "id":"RAN",
+      "parentid":"AIM"
+   },
+   {
+   "user":"coldfreezingnight",
+   "time":" 5 hours ago",
+   "content":"<blockquote>mindfullness</blockquote> fuuuuuuuuckkk oooffffffffff",
+   "child":1,
+   "number":"3",
+   "id":"MMM",
+   "parentid":"RAN"
+   }, 
+   {
+      "user":"seraphering",
+      "time":" 6 hours ago",
+      "content":"OP there's this thread we have on here weekly for thought / consciousness dumping - deliberately letting a line like that run through your head and typing it out in real time. It might be worth your time to go look through and read some of the posts there, maybe make one yourself. Journaling helps a lot too ime, just seeing what you're actually thinking, but it's hard to be honest with yourself in a journal if you feel you're not allowed to think thoughts in your own head like that, which I think is what drags people into that thread in the first place. I guess sometimes it can be easier to dump to strangers than to yourself. It's really too bad they killed Omegle. But uh. <a href='./weekly-consciousness-dump-44fn'>The most recent one is here</a> if you want to take a look.",
+      "child":0,
+      "number":"4",
+      "id":"DOG",
+      "parentid":null
+   },
+   {
+      "user":"annesfurnace",
+      "flair": "OP",
+      "time":" 5 hours ago",
+      "content":"this seems really cool, i'll have to look at it. thank you. and yeah i miss omegle too.",
+      "child":1,
+      "number":"5",
+      "id":"FUN",
+      "parentid":"DOG"
+   },
+   {
+      "user":"deathofawish",
+      "time":" 2 hours ago",
+      "content":"Maaaaaaaaaaaaaan. Shit. Yeah. Good vent. I don't have advice but I get it and I'm sorry, too.",
+      "child":0,
+      "number":"6",
+      "id":"DIE",
+      "parentid":null
+   },
+   {
+      "user":"ilovemoths6",
+      "time":" 40 minutes ago",
+      "content":"<blockquote>i can't even remember anything anymore</blockquote> I cannot speak on much else, but I know that this is a distinct thing that happens with long term depression. It might be worth examining.",
+      "child":0,
+      "number":"7",
+      "id":"CQC",
+      "parentid":null
+   }
+
+]

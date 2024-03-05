@@ -1,0 +1,59 @@
+[
+   {
+      "user":"deathofawish",
+      "time":" yesterday",
+      "content":"Maaaan. Probably not the best sec for this but whatever. I'm sure people will send you more, but I'm personally most privy to recievers. Listening to signals and having background music is nice, not too heavy, (good) ones are easy to tune mentally, and there isn't a lot of demand so there are plenty available for pretty cheap.",
+      "child":0,
+      "number":"1",
+      "id":"AIM",
+      "parentid":null
+   },
+   {
+      "user":"linkin_street",
+      "time":" yesterday",
+      "content":"-Camera <br> <br> -Christmas lights(Personal fav.. so cute) <br> <br> -Bluetooth reciever <br> <br> -Interlink <br> <br> -Loose string <br> <br> -Any human bracelet <br> <br> -If you're into it... spikes?",
+      "child":0,
+      "number":"2",
+      "id":"DOG",
+      "parentid":null
+   },
+   {
+      "user":"11_six",
+      "flair": "OP",
+      "time":" yesterday",
+      "content":"<blockquote> Christmas lights </blockquote>this sounds amazing but do i need batteries to make them work or anything like that? <br> <blockquote>spikes</blockquote>like... collar spikes? how would i get them on?",
+      "child":1,
+      "number":"3",
+      "id":"FUN",
+      "parentid":"DOG"
+   },
+   {
+      "user":"linkin_street",
+      "time":" yesterday",
+      "content":"No no.. okay. So you know how your halo zaps when humans touch it? Its actually sort of a power source on its own, and its pretty easy to throw whatever on there. That's how you get people with LED strips and stuff. So if you can just find a small line of christmas lights and wrap them around it then it works reeally well and is super cute. As far as spikes go, there are definitely some you can grab in some places that just wrap on, you just hafta look around",
+      "child":1,
+      "number":"4",
+      "id":"DIE",
+      "parentid":"FUN"
+   },
+   {
+      "user":"11_six",
+      "flair": "OP",
+      "time":" 13 hours ago",
+      "content":"ohhhh. thank you lots!!!",
+      "child":1,
+      "number":"5",
+      "id":"CQC",
+      "parentid":"DIE"
+   },
+   {
+      "user":"wakai",
+      "time":" 9 hours ago",
+      "content":"wth i never knew this that owns",
+      "child":1,
+      "number":"6",
+      "id":"CER",
+      "parentid":"DIE"
+   }
+]
+

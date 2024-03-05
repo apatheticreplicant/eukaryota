@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="referrer" content="no-referrer">
+	<meta name="theme-color" content="#c19a6b">
+	<title>sky</title>	
+	<meta property="og:url" content="https://eukaryota.cx/">
+	<meta property="og:title" content="eukaryota">
+	<meta property="og:description" content="...">
+	<meta property="og:site_name" content="eukaryota">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="/assets/eukaryota.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon96.png">
+</head>
+<style> 
+body{ background: #000; color: #fff}
+</style>
+<p>Rerouting you to angelnet...</p>
+<script type="module"> 	
+let postList = './intranet_assets/posts.json'
+let response = await fetch(postList)
+let links = await response.json();
+location.href = 's' + links[Math.floor(Math.random() * links.length)].locale + '.html'
+</script>
+</html>

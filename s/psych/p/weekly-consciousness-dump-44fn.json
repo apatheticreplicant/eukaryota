@@ -1,0 +1,50 @@
+[
+   {
+      "user":"featherfallen",
+      "time":" yesterday",
+      "content":"Hi op. Im listening to <a href='https://www.yewtu.be/watch?v=6AQfrbMfDXE&listen=1'>this</a> dnb mix for the past few hours. My favorite song in it is probably a solar eclipse by K. Its relaxing background noise, like the ridge racer soundtrack. <br> Um anyway... I think I just want to write words this time. so... yeah. <br> <br> Heart strings tug boat river caves bat knife police pig farm tedium exhaustion. I sure am! Jeez, what am i even doing. I feel so exhausted this week. Even though things are going... better,... I feel so behind with everything. Lately i've been seeing these stars in my eyes and at first I thought it was a deficiency Im not so sure anymore, maybe its a message, I dont know. I would like a message. I don't really tlak to much of anyone anymore. What is the point of anything, really. Im sotired. I can't even write this without wanting to somehow look up an answer and make it better. Ugh. Its really difficult to not repeat yourself when you're following a line of thoughtt. Dum diddly dum dum dum. A piano song just came on in my playlist and its really beautiful. I hope one day i can do something like that. At least it is never too late. We can learn things forever and I can't wait to learn everything I can. One minute left. I wonder if the people i care about can hear my thoughts. I used to believe all angels were tethered with invisible wire, feeling eachothers feelings, and things like that. Sometimes i still believe it, but Ive nver experienced it outside of delusion. I wonder what that means. Im sure its okay.",
+      "child":0,
+      "number":"1",
+      "id":"AIM",
+      "parentid":null
+   },
+   {
+      "user":"lets_all_love_miku",
+      "flair":"OP",
+      "time":" yesteday",
+      "content":"tethers... ive thought about that stuff before. good post.",
+      "child":1,
+      "number":"2",
+      "id":"RAN",
+      "parentid":"AIM"
+   },
+   {
+   "user":"skelethor",
+   "time":" 5 hours ago",
+   "content":"i love this place lots. it's weird, i shouldn't. it's not comfortable, or homey, or spacious, not really. but there's just something about it. i love the white walls, the empty rooms. i love the library, the big hole down the middle of it, the 'observation room', as its called, despite the fact that i'm the one being observed. i love how empty everything is. this is the most comfortable place i've ever been to, in a weird way. there's just something about it. i love imagining myself eating something in the big empty mess hall, looking out of the window, seeing nothing out there. i love the occasional rumbling sounds, i love the movie theatre and its little small blu-ray closet. i really hope that one day i wake up here. it feels like home. like i've been taken away from this world, this place that i'm supposed to be, and placed on a world i don't belong in. i can't ever get bored here, even with no other people. i love the bedroom... the attic-like ceiling, no windows, safe, like it should be. there's nothing better than this. some kind of beauty in isolation. i really love it.<br> <br> first time posting & wrote this in 5min with a pomodoro timer. hope its OK. rn im listening to some ambient piano type of stuff. <a href='https://yewtu.be/watch?v=1MBwENgbo0k&listen=1'>https://www.youtube.com/watch?v=1MBwENgbo0k</a>",
+   "child":0,
+   "number":"3",
+   "id":"MMM",
+   "parentid":null
+   }, 
+   {
+      "user":"lets_all_love_miku",
+      "flair":"OP",
+      "time":" 4 hours ago",
+      "content":"comfy. sometimes there is a lot of comfort in not talking to others. i would not mind visiting your place one day. <br> awesome music choice btw.. ryuichi sakamoto rocks.",
+      "child":1,
+      "number":"4",
+      "id":"JAN",
+      "parentid":"MMM"
+   }, 
+   {
+      "user":"sorryel",
+      "time":" 5 hours ago",
+      "content":"Woah, I got a great picture of this place in my head. Great post 4 ur first time.",
+      "child":1,
+      "number":"5",
+      "id":"CAN",
+      "parentid":"MMM"
+   } 
+
+]

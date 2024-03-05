@@ -3,9 +3,16 @@
 <channel>
 <title>eukaryota.cx</title>
 <link>https://eukaryota.cx</link>
-<description>lamp-post bulletin for eukaryotes</description>
+<description>LAMP-POST BULLETIN FOR EUKARYOTES</description>
 <language>en</language>
 
+<item>
+<title>NEW PROJECT: ANGEL INTRANET DISCUSSION FORUM</title>
+<link>https://eukaryota.cx/s/aidf/</link>
+<pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+<guid>https://eukaryota.cx/s/aidf/</guid>
+
+</item>
 <item>
 <title>Vinum Memoriae Mors</title>
 <link>https://eukaryota.cx/posts/2023/winter/vinum-memoriae-mors/</link>

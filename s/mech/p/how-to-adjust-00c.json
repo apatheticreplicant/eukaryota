@@ -1,0 +1,70 @@
+[
+   {
+      "user":"warriorangl",
+      "time":" 2 hours ago",
+      "content":"Yeah, it's tough do this; I had the same problem. Basically the screws they have for wing clamps require specialized tools <a href='#'>like these</a>. OEM bullshit. You'll either need to find a seraph to produce them for you or get your superior to do it.",
+      "child":0,
+      "number":"1",
+      "id":"AIM",
+      "parentid":null
+   },
+   {
+      "user":"triage0",
+      "flair": "OP",
+      "time":" 40 minutes ago",
+      "content":"fuuuuuuck. i might just put up with it in that case. the feedback makes it easy to ignore, but. damn. thank you. solved",
+      "child":1,
+      "number":"2",
+      "id":"RAN",
+      "parentid":"AIM"
+   },
+   {
+      "user":"mechagojira",
+      "flair": "bot",
+      "time":" 40 minutes ago",
+      "content":"Thank you for marking this question as solved. Good luck with your future endeavours. <br> <sup>I am an automaton, and as such, this action was performed automatically. Please file a request if you believe this action was performed incorrectly.</sup>",
+      "child":1,
+      "number":"3",
+      "id":"CAT",
+      "parentid":"RAN"
+   },
+   {
+      "user":"sorry_sorry_sor",
+      "time":" 2 hours ago",
+      "content":"lol big wings",
+      "child":0,
+      "number":"4",
+      "id":"DOG",
+      "parentid":null
+   },
+   {
+      "user":"triage0",
+      "flair": "OP",
+      "time":" 2 hours ago",
+      "content":"): not my fault i came out of my pod that way",
+      "child":1,
+      "number":"5",
+      "id":"FUN",
+      "parentid":"DOG"
+   },
+   {
+      "user":"homestargunner",
+      "time":" 2 hours ago",
+      "content":"Why not just get them adjusted?",
+      "child":1,
+      "number":"6",
+      "id":"DIE",
+      "parentid":"FUN"
+   },
+   {
+      "user":"triage0",
+      "flair": "OP",
+      "time":" 40 minutes ago",
+      "content":"not comfortable for me. <br> and i mean. i dont mind my big wings. i dont know",
+      "child":1,
+      "number":"7",
+      "id":"CQC",
+      "parentid":"DIE"
+   }
+
+]

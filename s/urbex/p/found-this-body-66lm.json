@@ -1,0 +1,127 @@
+[
+   {
+      "user":"scarecrow_wings",
+      "time":" 5 days ago",
+      "flair":"OP",
+      "content":"OK, so first off, sorry about the picture quality. Normally it'd be better, but you know how it is with passed-over angels and RADS. We actually detected higher levels of radiation than average on our way in but didn't think anything of it until it started to get particularly high.<br> <br> Anyway - it was abandoned a decade ago when BP decided it would be cheaper to leave it there doing nothing than demolish it, as is typical of human operations. I've popped in to this place several times over the past few years and they almost always have a guy in a guard boat, but for whatever reason he wasn't there this time. It had been a while since I'd been and we figured they finally just abandoned it entirely so we went ahead anyway.<br> <br>The whole outer shell was super rusted - we had full PPE, obviously, but that didn't change how dangerous walking along some of the platforms was. It was not this bad the last time I was there, but given the corpse, it was probably accelerated. Miraculously the inside was not as deteriorated, and we actually got one of the generators going, as you can see from the photo. The room where we found her was <a target='_blank' href='https://files.catbox.moe/qjpurj.mp3'>very loud</a>, and we didn't stay long once we saw the etchings. Which.. brings me to my main point:<br> <br> <strong>If you're in / around this area or you recognize where this is, DO NOT GO NEAR IT.</strong> We could not leave for several hours. Postmortem angel anomalies are always unpredictable, but this was on another level - we looped back around into this room several times before finding our way out, despite the exit being one room away. I cannot describe to you how stressful it was hearing the Geiger go haywire while trying to escort out the three other people who were with me. I KNOW this place, I've come here many times, I would not have gotten lost like this, especially on a rig as small as this one. <br> <br> You all know how this works, that shit is not going to last another week before going up, especially in its current state, so please stay away. ",
+      "child":0,
+      "number":"1",
+      "id":"AIM",
+      "parentid":null
+   },
+
+
+   {
+      "user":"janetrain",
+      "time":" 5 days ago",
+      "content":"Perhaps the guard was there to stop people like us from climbing up and nearly getting ourselves killed. Eerie scene, regardless. Glad you got out okay.",
+      "child":1,
+      "number":"2",
+      "id":"JAN",
+      "parentid":"AIM"
+   },
+   {
+      "user":"Елизавета",
+      "time":" 5 days ago",
+      "content":"<blockquote>Turn off the fucken rads!</blockquote> lol'd",
+      "child":1,
+      "number":"3",
+      "id":"LAN",
+      "parentid":"AIM"
+   },
+   {
+      "user":"lecabel_pachelbel",
+      "time":" 2 days ago",
+      "content":"sucks. did you manage to ID her?",
+      "child":1,
+      "number":"4",
+      "id":"CAN",
+      "parentid":"AIM"
+   },
+   {
+      "user":"scarecrow_wings",
+      "flair":"OP",
+      "time":" 2 days ago",
+      "content":"No.. she was too far gone. I'm telling you lec... seeing this shit here really resurfaced some painful memories. A lot of thoughts about CK and stuff, you know? She had the same hair color, too. Ugh",
+      "child":1,
+      "number":"5",
+      "id":"NAN",
+      "parentid":"CAN"
+   },
+   {
+      "user":"lecabel_pachelbel",
+      "time":" 2 days ago",
+      "content":"no worries, i get it. i'm glad you made it out of there. must have really been something.",
+      "child":1,
+      "number":"6",
+      "id":"ZAN",
+      "parentid":"NAN"
+   },
+   {
+      "user":"scarecrow_wings",
+      "flair":"OP",
+      "time":" 2 days ago",
+      "content":"Yeah. <3",
+      "child":1,
+      "number":"7",
+      "id":"MAN",
+      "parentid":"ZAN"
+   },
+   {
+      "user":"hearttaker",
+      "time":" 6 hours ago",
+      "content":"did something happen with ck? i dont check here often... what happened?",
+      "child":1,
+      "number":"8",
+      "id":"KIL",
+      "parentid":"NAN"
+   },
+   {
+      "user":"kommersanty",
+      "time":" 6 hours ago",
+      "content":"<a href='./memories-of-ckangl-256al'>>>hv.urbex/memories-of-ckangl</a>",
+      "child":1,
+      "number":"9",
+      "id":"MNM",
+      "parentid":"KIL"
+   },
+   {
+      "user":"hearttaker",
+      "time":" 6 hours ago",
+      "content":"fuck. sorry.",
+      "child":1,
+      "number":"10",
+      "id":"BAD",
+      "parentid":"MNM"
+   },
+   {
+      "user":"get_high_get_by_i_try",
+      "time":" 5 days ago",
+      "content":"Oh, I know this place. Shame, those outer platforms were really peaceful if you went up there at night. I wonder if that's why she picked that spot.",
+      "child":0,
+      "number":"11",
+      "id":"ERY",
+      "parentid":null
+   },
+   {
+      "user":"любовник3",
+      "time":" 5 days ago",
+      "content":"Do you have any more audio recordings of this? The anomalies in particular? I know you usually bring your casette recorder with you Crow; recordings like those are always very strange",
+      "child":0,
+      "number":"12",
+      "id":"SLK",
+      "parentid":null
+   },
+   {
+      "user":"scarecrow_wings",
+      "flair":"OP",
+      "time":" 5 days ago",
+      "content":"Yeah, I recorded quite a few but most of them got corrupted. The batteries on my tapedeck were drained pretty quick too- not ideal soundscape conditions o:p",
+      "child":1,
+      "number":"13",
+      "id":"NEU",
+      "parentid":"SLK"
+   }
+
+
+]

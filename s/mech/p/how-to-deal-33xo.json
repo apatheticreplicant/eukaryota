@@ -1,0 +1,69 @@
+[
+   {
+      "user":"yoko",
+      "time":" 14 hours ago",
+      "content":"TLDR is that you get used to it. <br> long answer is uhhh... it only gets better after several years of doing it over and over again. the good feelings out-weigh the bad ones in that sense. but there's a reason we're seen as a bit unstable, and it's (mostly) that. learning to meditate helped with my mood a bit, and it might be worth your time if you have the patience.",
+      "child":0,
+      "number":"1",
+      "id":"AIM",
+      "parentid":null
+   },
+   {
+      "user":"elim_inate",
+      "flair": "OP",
+      "time":" 14 hour ago",
+      "content":"well.. okay. thanks. i'll try some meditation and see if it helps at all. i hope..",
+      "child":1,
+      "number":"2",
+      "id":"RAN",
+      "parentid":"AIM"
+   },
+
+   {
+      "user":"unawawawa",
+      "time":" 14 hours ago",
+      "content":"ah, i remember having similar fears. it really does get easier, especially if you keep your score even. maxing your performance might look good on a report, but fucks over your inhibitors and makes you feel pretty awful once you're out of the trenches for a little while",
+      "child":0,
+      "number":"3",
+      "id":"DOG",
+      "parentid":null
+   },
+   {
+      "user":"majorflight_risk",
+      "time":" 14 hours ago",
+      "content":"FYI on top of what those two said, you can also get personal injections if your performance is high and you ask your superior nicely. THat way you don't really have to worry about it day to day.",
+      "child":0,
+      "number":"4",
+      "id":"LAG",
+      "parentid":null
+   },
+   {
+      "user":"warriorangl",
+      "time":" 14 hours ago",
+      "content":"Don't trust this lady!! She's constantly high on the shit they give her!! Just meditate OP!!",
+      "child":1,
+      "number":"5",
+      "id":"LAM",
+      "parentid":"LAG"
+   },
+   {
+      "user":"majorflight_risk",
+      "time":" 13 hours ago",
+      "content":"Shut up!!!",
+      "child":1,
+      "number":"6",
+      "id":"BAG",
+      "parentid":"LAM"
+   },
+   {
+      "user":"warriorangl",
+      "time":" 13 hours ago",
+      "content":"Heh",
+      "child":1,
+      "number":"7",
+      "id":"DAM",
+      "parentid":"BAG"
+   }
+
+
+]

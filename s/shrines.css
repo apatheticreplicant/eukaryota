@@ -11,8 +11,7 @@ body {
 	font-family: 'space grotesk', sans-serif;
 	padding: 40px;
   	line-height: 1.6;
-	background: url(../assets/textured-paper.gif) #000;
-	background-size: cover;
+	background: url(../assets/noise3.png) #000;
 	color: #fff;
 	font-size: 2rem;
 }

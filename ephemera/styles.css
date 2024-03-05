@@ -4,14 +4,16 @@
 }
 
 * {
-	transition: all 0.3s ease;
+	transition: all 0.4s ease;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
 	background: url(../assets/noise2.png) black;
 	font-family: 'Space Grotesk', sans-serif;
 	font-weight: bold;
+	overflow-y:scroll;
 }
 
 .webport {
@@ -30,16 +32,26 @@ body {
 	margin-top: 5%;
 
 }
-.keyblock, .friendblock, .privblock {
+.keyblock, .friendblock, .privblock, #frn, #prv {
 	max-height: 900px;
 	overflow: scroll;
+}
+.friendblock img {
+	height: 30rem;
+	z-index: -1;
 }
 .toggled {
 	max-height: 0px;
 	overflow: hidden;
 	opacity: 0;
+	margin: 0;
 }
-
+.fltr {
+	display: flex;
+}
+h2 {
+	margin: 0;
+}
 ul {
 	list-style-type: none;
 	padding: 0;

@@ -1,0 +1,179 @@
+[
+   {
+      "user":"ophantastic",
+      "time":" 8 days ago",
+      "content":"You mean THE barn? The... 'top secret government barn of doom' barn? Hohoho... well... <br><br> Nowadays everything we left over is gone, but... I was there when they designed that barn, and there when they left, too - the security was so on the nose that no one ever figured out what it was for years. Not even their <em>actual government investigators</em>. Not until 2010 (their UTC, not ATC) when a group of explorers broke in and triggered Cassiel. You should have seen the footage! I'm smiling just thinking about it bahhaha",
+      "child":0,
+      "number":"1",
+      "id":"AIM",
+      "parentid":null
+   },
+   {
+      "user":"angeltivivivity",
+      "time":" 8 days ago",
+      "content":"lol really? it wasn't even their competent people that figured it out? just.. like, randos?? that's fucking amazing!! what is it now?",
+      "child":1,
+      "number":"2",
+      "id":"CAT",
+      "parentid":"AIM"
+   },
+   {
+      "user":"ophantastic",
+      "time":" 8 days ago",
+      "content":"Ohhhhh yeah. They got into the basement after breaking through one of the main locks but we let em go after givin em a scare because they had no idea what they were looking at anyway, hah. Though to be honest I donno if I would consider getting in figuring it out. <br><br> I'm pretty sure after we picked up shop the humans turned the whole area into a suburb? And that building is a school now? Something like that. Every once in a while someone takes a look but I wouldn't know 100%",
+      "child":1,
+      "number":"3",
+      "id":"CEL",
+      "parentid":"CAT"
+   },
+   {
+      "user":"angeltivivivity",
+      "time":" 8 days ago",
+      "content":"unbelievable, pffffft",
+      "child":1,
+      "number":"4",
+      "id":"CAU",
+      "parentid":"CEL"
+   },
+   {
+      "user":"scarecrow_angel",
+      "time":" 8 days ago",
+      "content":"<blockquote>top secret government barn of doom</blockquote> Hah, I've never heard someone call it that before, that's great",
+      "child":1,
+      "number":"5",
+      "id":"CAP",
+      "parentid":"AIM"
+   },
+   {
+      "user":"ophantastic",
+      "time":" 8 days ago",
+      "content":"God I know right!! I didn't even come up with that name, <a target='_blank' href='https://www.uer.ca/forum_showthread.asp?fid=1&threadid=78436&currpage=1'>THEY did,</a> and its so good seriously I love humans sometimes. They can be so charming",
+      "child":1,
+      "number":"6",
+      "id":"CAL",
+      "parentid":"CAP"
+   }, 
+   {
+      "user":"angelaquatic",
+      "time":" 8 days ago",
+      "content":"Goldmine of a thread oh my god hahaha <br> The guy who thought our scanpoles were lightning rods... hahhahahahah",
+      "child":1,
+      "number":"7",
+      "id":"CAB",
+      "parentid":"CAL"
+   }, 
+   {
+      "user":"her_her_her_her",
+      "time":" 8 days ago",
+      "content":"<blockquote>I bet whoever owns this barn would be amused at all our theories and ideas into this simple little barn... but for some reason I love it.</blockquote> hehehe.. suckers....",
+      "child":1,
+      "number":"8",
+      "id":"CAC",
+      "parentid":"CAL"
+   },  
+   {
+      "user":"ルネサンス",
+      "time":" 8 days ago",
+      "content":"oh shit they mention the door to xibalba in that thread i hope no one ever got in lol no idea what that would do to a human's eyes",
+      "child":1,
+      "number":"9",
+      "id":"CAN",
+      "parentid":"CAL"
+   },   
+    {
+      "user":"oyo-oyo",
+      "time":" 8 days ago",
+      "content":"was permanently shut several years ago iirc. people from that region of america had a tendancy to stumble upon it by accident.",
+      "child":1,
+      "number":"10",
+      "id":"CAH",
+      "parentid":"CAN"
+   },  
+   {
+      "user":"ルネサンス",
+      "time":" 8 days ago",
+      "content":"oh. good",
+      "child":1,
+      "number":"11",
+      "id":"CAJ",
+      "parentid":"CAH"
+   },  
+   
+   
+   
+   
+   
+   {
+      "user":"h0b0angel",
+      "time":" 7 days ago",
+      "content":"<blockquote>the central area of the western continent ?</blockquote> dam girl you can just call it ''america'' like they do haha",
+      "child":0,
+      "number":"12",
+      "id":"JAN",
+      "parentid":null
+   },
+   {
+      "user":"the_Way",
+      "time":" 7 days ago",
+      "content":"wow i haven't heard about the barn in forever holy shiiieeet. i remember their local feds actually put up a monitoring facility right next to it</a> and called it a 'Solar Power Plant' it was hilarious",
+      "child":0,
+      "number":"13",
+      "id":"LAN",
+      "parentid":null
+   },
+   {
+      "user":"wingedTree",
+      "time":" 7 days ago",
+      "content":"lol wow they can really be incompetent huh",
+      "child":1,
+      "number":"14",
+      "id":"PLN",
+      "parentid":"LAN"
+   }, 
+   {
+      "user":"scarecrow_angel",
+      "time":" 7 days ago",
+      "content":"You have no idea.",
+      "child":1,
+      "number":"15",
+      "id":"PLA",
+      "parentid":"PLN"
+   },
+
+   {
+      "user":"zm",
+      "time":" 4 days ago",
+      "content":"you know for what it was that barn was pretty useful. i wish we still had the gates too o:c",
+      "child":0,
+      "number":"16",
+      "id":"CXC",
+      "parentid":null
+   },
+   {
+      "user":"orororiael",
+      "time":" 4 days ago",
+      "content":"Meh, I don't mind (mostly) human transport. It can be peaceful.",
+      "child":1,
+      "number":"17",
+      "id":"CLQ",
+      "parentid":"CXC"
+   },
+   {
+      "user":"ashlebelline",
+      "time":" 4 days ago",
+      "content":"90% sure if we brought them back humans would start getting ganked on accident by getting too close",
+      "child":1,
+      "number":"18",
+      "id":"CLO",
+      "parentid":"CXC"
+   },
+   {
+      "user":"zm",
+      "time":" 4 days ago",
+      "content":"oh yea with that new security shiz huh.. probly",
+      "child":1,
+      "number":"19",
+      "id":"CLM",
+      "parentid":"CLO"
+   }
+]
