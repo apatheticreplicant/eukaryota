@@ -174,15 +174,7 @@ function spawnThreads() {
 
 }
 spawnThreads();
-// check if thread contains image	
-if (document.querySelector(".titlecontent").children[0].tagName === 'IMG') {
-	let img = document.getElementById("postimg")
-	img.addEventListener('click', function(){
-		let imgu = this.src
-		window.open(imgu, "_blank")
-	})
 
-}
 
 
 
