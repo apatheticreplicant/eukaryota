@@ -45,7 +45,6 @@ body {
 .webport {
 	text-align: center;
 	margin: 100px;
-	
 }
 .webport h1 {
 	margin: -12px 0px -12px 0px;
@@ -56,6 +55,7 @@ body {
 .navbottom { 
 	border-top: 1px solid #464646;
 	padding: 10px;
+
 
 }
 .navtop {
@@ -176,3 +176,4 @@ a:hover, .swipe-L:hover, .swipe-R:hover {
 		color: #fff;
 	}
 }
+

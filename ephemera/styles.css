@@ -4,7 +4,7 @@
 }
 
 * {
-	transition: all 0.4s ease;
+	transition: all 0.3s ease;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
@@ -13,39 +13,54 @@ body {
 	background: url(../assets/noise2.png) black;
 	font-family: 'Space Grotesk', sans-serif;
 	font-weight: bold;
-	overflow-y:scroll;
+	color: white;
+	overflow-y: scroll;
 }
 
-.webport {
+
+
+.mailport, .box, .front {
 	text-align: center;
-	max-height: 5000px
+	max-height: 1000px;
 }
 
-
-.webport img {
+.navi {
+	max-width: 512px;
+	margin: 0 auto;
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+}
+.navi li {
+	padding: 4px;
+	display: inline;
+}
+.front img {
 	max-width: 100%;
 	}
-.box {
-	color: white;
-   	width: 75%;
+.items {
   	margin: 0 auto;
-	margin-top: 5%;
+}
 
+.items {
+	width: 75%;	
 }
-.keyblock, .friendblock, .privblock, #frn, #prv {
-	max-height: 900px;
-	overflow: scroll;
+
+.block {
+	max-height: 800px;
+	overflow-x: hidden;
+  	overflow-y: visible;
 }
-.friendblock img {
+#friendblock img {
 	height: 30rem;
 	z-index: -1;
 }
+
 .toggled {
 	max-height: 0px;
 	overflow: hidden;
 	opacity: 0;
-	margin: 0;
 }
+
 .fltr {
 	display: flex;
 }
@@ -68,12 +83,9 @@ a {
 a:hover, #lm:hover {
 	color: #ff0823; 
 	text-decoration: none;
-
 }
-.scr, .scr:hover {
-	cursor: default;
-	text-decoration: none;
-	color: white;
+.scr:hover {
+	cursor: cell;
 }
 ::selection {
   color: #ff3c3c;
