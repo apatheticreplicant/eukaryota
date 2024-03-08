@@ -14,7 +14,6 @@ body {
 	font-family: 'Space Grotesk', sans-serif;
 	font-weight: bold;
 	color: white;
-	overflow-y: scroll;
 }
 
 
@@ -47,8 +46,7 @@ body {
 
 .block {
 	max-height: 800px;
-	overflow-x: hidden;
-  	overflow-y: visible;
+	overflow: hidden;
 }
 #friendblock img {
 	height: 30rem;
@@ -91,3 +89,10 @@ a:hover, #lm:hover {
   color: #ff3c3c;
   text-shadow: 1px 1px rgb(57, 57, 57);
   }
+  @media(max-width: 800px) {
+	  .block {
+		  overflow-x: hidden;
+		overflow-y: visible;
+	  }
+ 
+  } 
