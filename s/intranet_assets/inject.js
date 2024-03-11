@@ -69,7 +69,7 @@ function spawnThreads() {
 	comTopWrap.classList.add("post-t")
 	// create top comment meta
 	const comCollapse = document.createElement("span")
-	comCollapse.title = "Collapse"
+	comCollapse.title = "collapse"
 	comCollapse.classList.add("collapse")
 	comCollapse.innerText = "[x]"
 	// add collase listener 
@@ -77,9 +77,11 @@ function spawnThreads() {
 			document.getElementById(this.parentNode.parentNode.parentNode.id).classList.toggle("toggled")
 			if (document.getElementById(this.parentNode.parentNode.parentNode.id).classList.contains("toggled")) {
 				this.innerHTML = "[o]"
+				this.title = "expand"
 			} else {
 	
 				this.innerHTML = "[x]"
+				this.title = "collapse"
 			}	
 		})
 

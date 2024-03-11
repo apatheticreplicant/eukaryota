@@ -160,7 +160,7 @@ a:hover:not(.non) {
 	margin-bottom: 8px;
 	padding-bottom: 0.5%;
 	overflow: hidden;
-	max-height: 10000px;
+	max-height: 9999px;
 	background-color: var(--highlight);
 	border-left: 1px dotted grey;
 }
@@ -187,6 +187,7 @@ a:hover:not(.non) {
 	border-left: 1px dotted wheat;
 	margin: 3px 0px 0px 15px;
   	padding-bottom: 0.5%;
+	max-height: 9999px;
 }
 blockquote {
 	padding: 6px;

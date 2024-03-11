@@ -104,8 +104,8 @@ a:hover {
 	transition: text-shadow 0.1s ease, color 0.050s ease;
 }
 ::selection {
-	color: #e0051d;
-	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+	color: #ff3c3c;
+	text-shadow: 1px 1px rgb(57, 57, 57); 
 }
 
 @keyframes fadein {
