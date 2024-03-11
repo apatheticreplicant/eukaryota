@@ -4,7 +4,7 @@
 }
 
 * {
-	transition: all 0.3s ease;
+	transition: all 0.4s ease;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
@@ -17,15 +17,15 @@ body {
 }
 
 
-
+.front {
+	margin-top: 3%;
+}
 .mailport, .box, .front {
 	text-align: center;
 	max-height: 1000px;
 }
 
 .navi {
-	max-width: 512px;
-	margin: 0 auto;
 	padding: 20px 0px 0px 0px;
 	text-align: center;
 }
@@ -41,22 +41,28 @@ body {
 }
 
 .items {
-	width: 75%;	
+	width: 70%;	
 }
 
 .block {
 	max-height: 800px;
 	overflow: hidden;
 }
+#privblock img {
+	height: 100%;
+}
 #friendblock img {
 	height: 30rem;
 	z-index: -1;
+	max-width: 100%;
 }
+
 
 .toggled {
 	max-height: 0px;
 	overflow: hidden;
 	opacity: 0;
+	transform: scale(0.9);
 }
 
 .fltr {
@@ -83,15 +89,15 @@ a:hover, #lm:hover {
 	text-decoration: none;
 }
 .scr:hover {
-	cursor: cell;
+	cursor: context-menu;
 }
 ::selection {
   color: #ff3c3c;
   text-shadow: 1px 1px rgb(57, 57, 57);
   }
   @media(max-width: 800px) {
-	  .block {
-		  overflow-x: hidden;
+	  .block, body {
+		overflow-x: hidden;
 		overflow-y: visible;
 	  }
  
