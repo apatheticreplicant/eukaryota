@@ -52,6 +52,11 @@ body {
 .webport p {
 	font-size: small;
 }
+sub a {
+	font-size: 11px;
+	color: white;
+	text-shadow: 3px -2px rgba(255, 255, 255, 0.77);
+}
 .navbottom { 
 	border-top: 1px solid #464646;
 	padding: 10px;
@@ -166,9 +171,9 @@ a:hover, .swipe-L:hover, .swipe-R:hover {
 	text-shadow: 3px -2px rgba(255, 255, 255, 0.77);
 	transition: text-shadow 0.1s ease, color 0.05s ease;
 }
-#noaccess:hover {
-	color: red;
-	cursor: not-allowed;
+sub a:hover {
+	color: #ff0823;
+	text-shadow: 3px -2px #ff0823;
 }
 
 @keyframes rss {
