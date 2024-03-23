@@ -30,7 +30,7 @@ for (let i = 0; i < posts.length; i++) {
 	
 	const postT = document.createElement("h1")
 	postT.className = "title"
-	postT.innerText = posts[i].title
+	postT.innerHTML = posts[i].title
 	postT.id = "title"
 
 	const postM = document.createElement("p")
@@ -44,11 +44,18 @@ for (let i = 0; i < posts.length; i++) {
 	const postPrw = document.createElement("p")
 	postPrw.innerHTML = posts[i].stuff
 	const linkOut = document.createElement("a")
-	linkOut.innerText = "read further..."
 	linkOut.href = posts[i].locale
-	linkOut.onClick = "out();"	
+	if (posts[i].locale === null) {
+		linkOut.innerText = ""
+	} else {
+		linkOut.innerText = "look further..."
+	}
+	
 	postM.append(postD," ∙ ",postTags)
 	postH.append(postT,postM)
 	newP.append(postH,postPrw,linkOut)
 	document.querySelector(".posts").appendChild(newP)
+}
+	window.onbeforeunload = function(e){
+    document.querySelector('.scroll').classList.add('out')
 }

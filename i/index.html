@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="referrer" content="never" />
+	<meta name="referrer" content="no-referrer" />
+	<meta name="theme-color" content="#c19a6b">
+	<title>ephemera</title>	
+	<meta property="og:url" content="https://eukaryota.cx/">
+	<meta property="og:title" content="ephemera | eukaryota.cx">
+	<meta property="og:description" content="come take a look">
+	<meta property="og:site_name" content="eukaryota">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="../assets/eukaryota.png">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon16.png">
+</head>
+
+<body>
+<div class="front">
+		<a href="../">
+		<img id="logo" src="../assets/logo.png">
+		</a>
+</div>
+	<ul class="navi"> 
+	<li><a onclick="document.getElementById('friendblock').classList.add('toggled'); document.getElementById('mailport').classList.toggle('toggled'); document.getElementById('privblock').classList.add('toggled'); document.querySelector('.front').classList.remove('toggled')" class="scr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-raised-hand" viewBox="0 0 16 16">
+  <path d="M6 6.207v9.043a.75.75 0 0 0 1.5 0V10.5a.5.5 0 0 1 1 0v4.75a.75.75 0 0 0 1.5 0v-8.5a.25.25 0 1 1 .5 0v2.5a.75.75 0 0 0 1.5 0V6.5a3 3 0 0 0-3-3H6.236a1 1 0 0 1-.447-.106l-.33-.165A.83.83 0 0 1 5 2.488V.75a.75.75 0 0 0-1.5 0v2.083c0 .715.404 1.37 1.044 1.689L5.5 5c.32.32.5.754.5 1.207"/>
+  <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/></svg></a></li>
+<li><a class="scr" onclick="document.getElementById('friendblock').classList.toggle('toggled'); document.getElementById('mailport').classList.add('toggled'); document.getElementById('privblock').classList.add('toggled'); document.querySelector('.front').classList.add('toggled');"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-postcard-heart" viewBox="0 0 16 16">
+  <path d="M8 4.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0zm3.5.878c1.482-1.42 4.795 1.392 0 4.622-4.795-3.23-1.482-6.043 0-4.622M2.5 5a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1z"/>
+  <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"/>
+</svg></a></li>	
+			<li><a class="scr" onclick="document.getElementById('friendblock').classList.add('toggled'); document.getElementById('mailport').classList.add('toggled'); document.getElementById('privblock').classList.toggle('toggled'); document.querySelector('.front').classList.remove('toggled')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eyedropper" viewBox="0 0 16 16">
+  <path d="M13.354.646a1.207 1.207 0 0 0-1.708 0L8.5 3.793l-.646-.647a.5.5 0 1 0-.708.708L8.293 5l-7.147 7.146A.5.5 0 0 0 1 12.5v1.793l-.854.853a.5.5 0 1 0 .708.707L1.707 15H3.5a.5.5 0 0 0 .354-.146L11 7.707l1.146 1.147a.5.5 0 0 0 .708-.708l-.647-.646 3.147-3.146a1.207 1.207 0 0 0 0-1.708zM2 12.707l7-7L10.293 7l-7 7H2z"/>
+</svg></a></li>	
+</ul>
+<div class="items"> 
+<div id="mailport" class="block toggled">		
+		<ul>
+				<li><a href="mailto:educatedfungi@proton.me">educatedfungi@proton.me </a><a title="Display Public Key" href="#" onclick="document.getElementById('keyblock').classList.toggle('toggled')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"/>
+						</svg></a><a href="../eukaryota.asc" title="Download Public Key"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-lock2" viewBox="0 0 16 16">
+  <path d="M10 7v1.076c.54.166 1 .597 1 1.224v2.4c0 .816-.781 1.3-1.5 1.3h-3c-.719 0-1.5-.484-1.5-1.3V9.3c0-.627.46-1.058 1-1.224V7a2 2 0 1 1 4 0M7 7v1h2V7a1 1 0 0 0-2 0"/>
+  <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+</svg></a></li>
+				<li>
+				<div id="keyblock" class="block toggled">
+				<p>-----BEGIN PGP PUBLIC KEY BLOCK-----</p>
+				<p>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
+Aud0vKqvUd/0iJ/I00PfiBzn54Ny7W+jA2k=
+=8vLn</p>
+				<p>-----END PGP PUBLIC KEY BLOCK-----</p>
+				</div> 
+				</li>					
+			</ul>
+</div>
+			<div id="friendblock" class="block fltr toggled"> 
+				<ul>
+					<li><h4>This rose is dedicated to the following friends, foes, inspirations, places worth being and angels worth knowing. Each and every one of them is full of heart, and each and every one of them will no doubt become deep-seated within your mind if you enjoy any of the things found on this web-zone.</h4></li>
+							<li><a id="lm" href="https://old-home.faith/" target="_blank">wren</a></li>
+							<li><a id="lm" href="https://marlbara.com/" target="_blank">marlbara</a></li>
+							<li><a id="lm" href="https://omnipresence.neocities.org/#" target="_blank">omni</a></li>
+							<li><a id="lm" href="https://thaer.no/" target="_blank">thaer.no</a></li>
+							<li><a id="lm" href="https://lauren-mccarthy.com/" target="_blank">lauren mccarthy</a></li>
+							<li><a id="lm" href="https://tiny-universes.net/" target="_blank">tiny universes</a></li>
+							<li><a id="lm" href="https://yogurt200.com/" target="_blank">sofa</a></li>
+							<li><a id="lm" href="https://thehtml.review" target="_blank">the html review</a></li>
+							<li><a id="lm" href="https://thebakery.substack.com/" target="_blank">pea</a></li>
+
+							<li><a id="lm" href="https://twitter.com/scorpiofire" target="_blank">ruby...toothed</a></li>
+							<li><a id="lm" href="https://tilde.town/" target="_blank">tilde.town</a></li>
+							<li><a id="lm" href="https://xrafstar.monster/" target="_blank">porpentine</a></li>
+							<li><a id="lm" href="https://cardboardcomputer.com/" target="_blank">cardboard...computer</a></li>
+
+
+
+					</ul>
+					<img loading="lazy" src="../assets/rose.gif">
+
+			</div>	
+					
+
+				<div class="block toggled fltr" id="privblock">
+					<ul>
+					<li><h4>Your mind is yours. My ley-line does not track its users.</h4></li>
+					<li><h4>All outgoing links are stripped of their referral information via meta tags, and are additionally given <code>rel="noreferrer"</code>, ensuring that no referral data from this web-zone is passed <a id="lm" href="https://sizeof.cat/privacy-policy#http-referrer">anywhere else</a>.</h4></li>
+					<li><h4>My leyline's certificate was provided by <a id="lm" href="https://letsencrypt.org/about/" target=_"blank">let's encrypt</a>, a non-profit do-no-track compliant certificate authority.</h4></li>
+					<li><h4>Travelling on the ley-line is not as accessible as it could be, but every page is mobile-compatible, and legible to those using tiling window managers, odd screen sizes, old-world holograms, or poor-fitting goggles.</h4></li>
+					<li><h4>Encrypted mail is preferred.</h4></li>
+					<li><h4>The 404 page is available <a id="lm"href="../404.html">here</a>.</h4></li>	
+					</ul>
+					<img loading="lazy" src="../assets/butterfly.gif">
+				</div>
+</div>
+
+</body>
+<script>
+</script>
+</html>
+
