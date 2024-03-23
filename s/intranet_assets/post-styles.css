@@ -210,10 +210,13 @@ blockquote {
 	box-shadow: none;
 	border-left: 3px dotted grey;
 }
-::selection, .special {
+::selection {
 	color: var(--highlight);
  	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
   	background: var(--text);
+}
+.special {
+	text-shadow: 2px 2px rgba(132, 124, 117, 0.77);
 }
 .flare, .collapse {
 	margin: 9px 0px;
