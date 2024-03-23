@@ -16,7 +16,9 @@ body {
 	color: white;
 }
 
-
+.front, .navi {
+	animation: fade 1s ease;
+}
 .front {
 	margin-top: 3%;
 }
@@ -101,4 +103,8 @@ a:hover, #lm:hover {
 		overflow-y: visible;
 	  }
  
-  } 
+  }
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

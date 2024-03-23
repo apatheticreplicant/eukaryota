@@ -81,7 +81,7 @@ ul {
 }
 /* right */
 .sel {
-	text-decoration: line-through;
+	text-decoration: underline;
 
 }
 .ban a {
