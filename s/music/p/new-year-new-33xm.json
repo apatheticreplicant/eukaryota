@@ -111,30 +111,11 @@
       "parentid":null
    },
    {   
-      "user":"alien66Baby",
-      "time":" 2 days ago",
-      "content":"oh cool we should post charts. i know its spammy but just this once maybe? <a target='_blank' href='https://files.catbox.moe/ec9l6p.png'>halobox.moe/ec9l6p.png</a>",
-      "child":0,
-      "number":"13",
-      "id":"WOD",
-      "parentid":null
-   },
-   {   
-      "user":"headsWILLroll",
-      "time":" 2 days ago",
-      "flair": "mod",
-      "content":"Hell yeah go for it here's mine <a target='_blank' href='https://files.catbox.moe/s3jy65.png'>halobox.moe/s3jy65.png</a>",
-      "child":1,
-      "number":"14",
-      "id":"NOP",
-      "parentid":"WOD"
-   },
-   {   
       "user":"reverb_location",
       "time":" yesterday",
       "content":"hey has anyone here heard of free.99? they really dont get enough recognition. its basically these two angels(?) making just the most amazingly produced shit ever. honestly worth checking out for some of the music videos alone even if you don't like the genre, super super cool and it wouldnt surprise me if they posted here <br> <a href='https://www.yewtu.be/watch?v=t-dp9011iqs' target='_blank'>https://www.youtube.com/watch?v=t-dp9011iqs</a> <br> one of them actually streams her process pretty often and its really cool and informative and fantastic all around really",
       "child":0,
-      "number":"15",
+      "number":"13",
       "id":"ECC",
       "parentid":null
    },
@@ -143,7 +124,7 @@
       "time":" yesterday",
       "content":"YES free99!!! I've found several of my favorite songs through her stuff. Rad as hell... def check their shit out",
       "child":1,
-      "number":"16",
+      "number":"14",
       "id":"DED",
       "parentid":"ECC"
    },
@@ -152,7 +133,7 @@
       "time":" yesterday",
       "content":"I'm so glad you guys post this stuff I love finding new music from here",
       "child":1,
-      "number":"17",
+      "number":"15",
       "id":"RUS",
       "parentid":"ECC"
    },
@@ -161,16 +142,16 @@
       "time":" yesterday",
       "content":"<a target='_blank' href='https://yewtu.be/watch?v=nLtJ7yDQXl4&listen=1'>https://www.youtube.com/watch?v=nLtJ7yDQXl4</a>",
       "child":0,
-      "number":"18",
+      "number":"16",
       "id":"KMJ",
       "parentid":null
    },
    {   
       "user":"letsjust_fuck",
       "time":" yesterday",
-      "content":"classic shit",
+      "content":"awesome",
       "child":1,
-      "number":"19",
+      "number":"17",
       "id":"RNR",
       "parentid":"KMJ"
    }

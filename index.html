@@ -6,14 +6,13 @@
 	<meta name="referrer" content="never" />
 	<meta name="referrer" content="no-referrer" />
 	<meta name="theme-color" content="#c19a6b">
-	<title>eukaryota leyline</title>	
+	<title>eukaryota ley-line</title>	
 	<meta property="og:url" content="https://eukaryota.cx/">
-	<meta property="og:title" content="eukaryota leyline">
+	<meta property="og:title" content="eukaryota ley-line">
 	<meta property="og:description" content="Ready for transport!">
 	<meta property="og:site_name" content="eukaryota.cx">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="assets/banner.gif">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 	<link rel="stylesheet" href="home.css">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon16.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon32.png">
@@ -31,7 +30,7 @@
 			<a href="./">
 			<img src="assets/logo.png">
 			</a>
-		<h1>EUKARYOTA.CX LEY LINE</h1>
+		<h2>eukaryota.cx ley-line</h2>
 		<p><em>a direct route for the <span id="user">..</span></em></p>
 
 		<div class="navwrapper">
@@ -52,46 +51,22 @@
 	<li><a id="rss" alt="RSS" title="RSS Feed" target="_blank" href="feed.xml"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss" viewBox="0 0 16 16">
   <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
   <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1z"></path>
-			</svg></a><sub><a title="(What is this?)" href="https://aboutfeeds.com/"> ?</a></sub></li>
+			</svg></a><sub><a title="(what's this?)" href="https://aboutfeeds.com/"> ?</a></sub></li>
 		</ul>
 		</nav>
+		<p class="ibox">hi, i'm a netpicker! you are currently viewing a disused ley-line, which i use to transport all my personal stuff. you can look at said stuff <span id="lcl">on the right</span>. for more information, click the "i" icon above.</p>
 		</div>
 		</div>
 		
 
-<div class="posts">
-			<header>the latest:</header>
+<div class="scroll">
+	<header class="ban">the latest:</header>
+			
+	<div class="posts"> 
 
-
-<div class="swiper"> 
-	<div class="swiper-wrapper">
-		<div class="swiper-slide">
-		<header style="border-bottom: 1px solid #464646;">
-		<h1 class="title">ANGEL INTRANET DISCUSSION FORUM</h1>
-		<p class="meta"> spring 2024 ∙ fiction ∙ shrine </p>
-		</header>
-		<p></p>
-		<a href="s/aidf">click to view...</a>
-		</div>
-		
-
-	
-		<div class="swiper-slide">
-		<header style="border-bottom: 1px solid #464646;">	
-		<h2>You've reached the end of the line. Would you like to view something <a title="Site Archive" href="posts">older?</a></h2>
-		</div>
-
-
-
-
-
-
-
-	
 	</div>
-	<div class="swiper-button-prev swipe-L"></div>
-  	<div class="swiper-button-next swipe-R"></div>
-</div>
+
+
 </div>		
 
 
@@ -101,8 +76,11 @@
 
 </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="module" src="index.js"></script>
 <script>
+	if (window.innerWidth <= 1420) {
+			document.getElementById("lcl").innerText="below"
+		} else { document.getElementById("lcl").innerText="on the right" }
 let lm = document.lastModified;
 console.log('hello! this front page was last modified ' + lm + '.');
 let cm = new Date();
@@ -112,18 +90,6 @@ let cm1 = cm.getMonth();
 			document.getElementById("rss").classList.add("rss")
 		}
 
-
-new Swiper('.swiper', {
-	speed: 400,
-	spaceBetween: 100,
-	navigation: {
-		nextEl: ".swipe-R",
-		prevEl: ".swipe-L"
-	},
-	effect: "slide",
-	loop: false,
-
-});
 fetch('https://api.datamuse.com/words?rel_jjb=angel').then(function(response) {
   return response.json();
 }).then(function(data) {

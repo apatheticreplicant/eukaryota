@@ -20,37 +20,48 @@ body {
 	line-height: 1.6;
 	font-size: 1.3rem;
 	color: #f7f3e6;
-	background: black url(assets/noise1.png);
-	background-repeat: repeat;
-	background-size: 56rem;
+	background: black url(assets/noise3.png)	
 }
 
 ::selection {
 	color: #866bc1;
 	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
 }
-
-
 #new {
 	animation: rss 3s linear infinite;
 }
+/* left */
 
 .wrapper {
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	gap: 7%;
+	overflow: hidden;
 }
 .webport {
 	text-align: center;
-	margin: 100px;
+	padding: 100px;
+	background: black url(assets/noise1.png);
+	border-right: 2px solid wheat;	
+	height: 100vh;
+	width: 35%;
+	overflow-y: scroll;
 }
-.webport h1 {
+
+.webport h2 {
 	margin: -12px 0px -12px 0px;
 }
 .webport p {
-	font-size: small;
+	font-size: medium;
+}
+.webport img {
+	max-width: 100%;
+}
+.ibox {
+	display: none;
+	background: rgba(0, 0, 0, 0.76);
+  	border: 1px solid wheat;
+  	padding: 20px;
 }
 sub a {
 	font-size: 11px;
@@ -72,31 +83,24 @@ ul {
   	list-style-type: none;
   	padding: 0;
 }
-
-/*  swiper */
-
-.posts {
-	margin-top: 350px;
-  	width: 42%;
+/* right */
+.scroll {
+	width: 70%;
+	padding: 100px;
+	overflow-y: scroll;
 }
-.swiper-slide {
+.post {
+	padding: 10%;
 	font-size: 1rem;
 }
-.swiper-wrapper {
-	  transform: translate(0, 0);
+.post header {
+	border-bottom: 1px solid #464646;
 }
-.swiper {
-	height: 90%;
-	width: 100%;
-}
-
-.swipe-L, .swipe-R {
-	color: #f77676;
-	top: 40%;
-
-}
-.swipe-L {
-	left: 85%;
+.post img {
+	max-width: 100%;
+	display: block;
+	padding: 40px;
+	margin: 0 auto
 }
 
 /* post meta */
@@ -108,12 +112,6 @@ ul {
 	font-style: italic;	
 }
 
-.swiper-button-prev:hover, .swiper-button-next:hover {
-	color: wheat;
-}
-
-
-
 
 .rss {
 	animation: rss 1s linear infinite;
@@ -123,50 +121,46 @@ ul {
 }
 
 @media (max-width: 1420px) {
-	.wrapper 
-	{
-		flex-direction: column;	
-		gap: 1%;
-		width: 90%;
-		margin: 0 auto;
-		margin-bottom: 30%;	
-		height: 120%;
+	body {
+		background: black url(assets/noise1.png)	
+	}	
+	.wrapper {
+		overflow: scroll;
+		flex-direction: column;
 	}
 	.webport {
+		width: 100%;
+		border-right: none;
 		margin: 0;
     		padding: 32px;
+		height: unset;
+		overflow-y: unset;
+		background: transparent;
 	}
-	.webport img {
-		padding-bottom: 5%;
-		max-width: 100%;
+	.webport h2 {
+    		font-size: 24px;
 	}
+	
 
-	.webport h1 {
-		font-size: 30px;
-	}
-	.posts {
+	.scroll {
 		width: 100%;
-		margin: 0;
-		padding: 0% 5% 0% 5%;
-	}
-	.swiper-slide { 
+		overflow-y:unset;	
+	   	padding: 0% 5% 0% 5%;
 		font-size: 15px;
 	}
-	.swipe-R, .swipe-L {
+	.ban {
 		display: none;
-	}
-	ul {
-		justify-content: space-around;
-		gap: 1vw;
 	}
 }
 
-a, .swipe-L, .swipe-R {
+
+
+a {
 	text-decoration: none;
-	color: #866bc1;
+	color: #b099e1;
 	transition: all 0.2s ease;
 }
-a:hover, .swipe-L:hover, .swipe-R:hover {
+a:hover {
 	color: white;
 	text-shadow: 3px -2px rgba(255, 255, 255, 0.77);
 	transition: text-shadow 0.1s ease, color 0.05s ease;
