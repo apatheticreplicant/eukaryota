@@ -40,7 +40,6 @@ for (let i = 0; i < posts.length; i++) {
 	postD.innerText = posts[i].date
 	const postTags = document.createElement("span")
 	postTags.innerText = posts[i].meta
-
 	
 	const postPrw = document.createElement("p")
 	postPrw.innerHTML = posts[i].stuff
