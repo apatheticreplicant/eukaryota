@@ -81,7 +81,7 @@ ul {
 }
 /* right */
 .sel {
-	text-decoration: overline;
+	text-decoration: line-through;
 
 }
 .ban a {
@@ -89,6 +89,7 @@ ul {
   	text-shadow: 1px 1px rgb(57, 57, 57);
 }
 .ban a:hover { text-decoration: overline; }
+figure { margin: 0; }
 .scroll {
 	width: 70%;
 	padding: 100px;

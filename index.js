@@ -48,7 +48,7 @@ for (let i = 0; i < posts.length; i++) {
 	if (posts[i].locale === null) {
 		linkOut.innerText = ""
 	} else {
-		linkOut.innerText = "look further..."
+		linkOut.innerText = "view further..."
 	}
 	
 	postM.append(postD," ∙ ",postTags)
