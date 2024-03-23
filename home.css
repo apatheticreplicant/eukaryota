@@ -46,7 +46,7 @@ body {
 	border-right: 2px solid wheat;	
 	height: 100vh;
 	width: 35%;
-	overflow-y: scroll;
+	overflow-y: hidden;
 }
 
 .webport h2 {
@@ -135,7 +135,7 @@ ul {
 		margin: 0;
     		padding: 32px;
 		height: unset;
-		overflow-y: unset;
+		overflow-y: scroll;
 		background: transparent;
 	}
 	.webport h2 {
