@@ -6,6 +6,7 @@ if (headlights == "light") {
 }
 ltggle = document.getElementById("ltggle")
 ltggle.title = "...turn on the lights?"
+ltggle.href = "javascript:void();"
 ltggle.addEventListener("click", function() {
 	document.body.classList.toggle("light-theme");
 	if (document.body.classList.contains("light-theme")) {
