@@ -11,7 +11,7 @@ body {
 	--background: #101015;
 	--highlight: #17171c;
 	--content: #1c1c22;
-	--text:	#fff;
+	--text:	#e6e2e2;
 	--user: #b2b0ff;
 	--link: #d0cfff;
 	--meta: #958e8e;
@@ -28,15 +28,15 @@ body {
 body.light-theme {
 
 	--background: #f5f5f5;
-	--highlight: #fbfcff;
-	--content: #ececf0;
-	--text:	#242424;
-	--user: #120cff;
-	--link: #725eff;
-	--meta: #4f4f4f;
-	--shadow: rgba(0,0,0,0.75);
-	--hover: #6fbcff;
-	}
+  	--highlight: #fbfcff;
+  	--content: #ececf0;
+  	--text: #242424;
+  	--user: #3d48df;
+  	--link: #6163b9;
+  	--meta: #4f4f4f;
+  	--shadow: rgba(0,0,0,0.75);
+  	--hover: #4d4d4d;
+}
 
 
 .wrapper {
@@ -123,7 +123,6 @@ a:hover:not(.non) {
 	padding: 0.5%;
   	max-width: fit-content;
   	background-color: var(--content);
-  	border-radius: 6px;
   	margin: 1% 0;
 }
 .meta, .meta-butt {
@@ -211,9 +210,10 @@ blockquote {
 	box-shadow: none;
 	border-left: 3px dotted grey;
 }
-.special, ::selection {
-	color: var(--hover);
-	text-shadow: 0px -5px 2px var(--hover);
+::selection, .special {
+	color: var(--highlight);
+ 	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+  	background: var(--text);
 }
 .flare, .collapse {
 	margin: 9px 0px;

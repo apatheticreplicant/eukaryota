@@ -24,8 +24,9 @@ body {
 }
 
 ::selection {
-	color: #866bc1;
-	text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+	color: #353535;
+ 	 text-shadow: 1px 1px rgba(132, 124, 117, 0.77);
+  	background: #fff;
 }
 #new {
 	animation: rss 3s linear infinite;
