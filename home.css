@@ -6,6 +6,7 @@
 * {
 	box-sizing: border-box;
 	transition: margin, width 0.5s ease;
+	scrollbar-width: thin;
 }
 
 html, body {
@@ -135,7 +136,7 @@ ul {
 		margin: 0;
     		padding: 32px;
 		height: unset;
-		overflow-y: scroll;
+		overflow-y: visible;
 		background: transparent;
 	}
 	.webport h2 {

@@ -120,10 +120,10 @@ a:hover:not(.non) {
 	cursor: pointer;	
 }
 .titlecontent {
-	padding: 0.5%;
+	padding: 10px;
   	max-width: fit-content;
   	background-color: var(--content);
-  	margin: 1% 0;
+  	margin: 8px 0;
 }
 .meta, .meta-butt {
 	font-size: 12px;
