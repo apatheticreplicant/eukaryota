@@ -59,3 +59,6 @@ for (let i = 0; i < posts.length; i++) {
 	window.onbeforeunload = function(e){
     document.querySelector('.scroll').classList.add('out')
 }
+window.onload = function(e){
+    document.querySelector('.scroll').classList.remove('out')
+}
