@@ -31,7 +31,6 @@
 			<img src="../assets/logo.png">
 			</a>
 		<h2>eukaryota.cx ley-line</h2>
-		<p><em>a direct route for the <span id="user">..</span></em></p>
 
 		<div class="navwrapper">
 		<nav class="sitenav">
@@ -69,24 +68,12 @@
 <script type="module" src="../index.js"></script>
 <script>
 let lm = document.lastModified;
-console.log('hey! this front page was last modified ' + lm + '!');
 let cm = new Date();
 let cm1 = cm.getMonth();
 
 	if (Array.from(lm)[0] = cm1) {
 			document.getElementById("rss").classList.add("rss")
 		}
-
-fetch('https://api.datamuse.com/words?rel_jjb=angel').then(function(response) {
-  return response.json();
-}).then(function(data) {
-  let user = data[Math.floor(Math.random()*data.length)];
-  document.getElementById("user").innerHTML=user.word
-  console.log("you are " + user.word);
-}).catch(function(err) {
-  console.log('issue:', err);
-});
-
 </script>
 </html>
 
